@@ -14,7 +14,7 @@ export default function Testimonials() {
         <div className="testimonials">
           <div className="testimonial">
             <div className="image">
-              <img src={avatar1} alt="" />
+              <img src={avatar1} alt="avatar1" />
             </div>
             <p>
               He Printing and Typesetting the industry. <span>Lorem Ipsum</span>{" "}
@@ -23,7 +23,7 @@ export default function Testimonials() {
           </div>
           <div className="testimonial">
             <div className="image">
-              <img src={avatar1} alt="" />
+              <img src={avatar1} alt="avatar2" />
             </div>
             <p>
               He Printing and Typesetting the industry. <span>Lorem Ipsum</span>{" "}
@@ -32,7 +32,7 @@ export default function Testimonials() {
           </div>
           <div className="testimonial">
             <div className="image">
-              <img src={avatar1} alt="" />
+              <img src={avatar1} alt="avatar3" />
             </div>
             <p>
               He Printing and Typesetting the industry. <span>Lorem Ipsum</span>{" "}

@@ -17,7 +17,7 @@ export default function Services() {
       </div>
       <div className="services">
         <div className="service">
-          <img src={Services2} alt="" />
+          <img src={Services2} alt="Services2" />
           <p>
             He Printing and Typesetting the industry. <span>Lorem Ipsum</span>{" "}
             has been the Industry's
@@ -25,7 +25,7 @@ export default function Services() {
           <button>Read More</button>
         </div>
         <div className="service yellow">
-          <img src={Services1} alt="" />
+          <img src={Services1} alt="Services1" />
           <p>
             He Printing and Typesetting the industry. <span>Lorem Ipsum</span>{" "}
             has been the Industry's
