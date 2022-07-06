@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <Section id="home">
       <div className="background">
-        <img src={hero} alt="Background Image" />
+        <img src={hero} alt="Background" />
       </div>
       <div className="content">
         <div className="sale">

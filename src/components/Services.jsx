@@ -33,7 +33,7 @@ export default function Services() {
           <button>Read More</button>
         </div>
         <div className="service">
-          <img src={Services3} alt="" />
+          <img src={Services3} alt="Services3" />
           <p>
             He Printing and Typesetting the industry. <span>Lorem Ipsum</span>{" "}
             has been the Industry's
