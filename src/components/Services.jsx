@@ -10,35 +10,31 @@ export default function Services() {
       <div className="title">
         <h1 className="yellow">What we do?</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur,
-          incidunt magnam labore ipsam vero minima maxime doloribus dolores ipsa
-          soluta.
+          We are thrilled to offer you our hand-made freshly made Cake's in a wide range of variations.
+          {/* Our menu also serves a special segment of cakes for those who are fans of the famous marvel series. */}
         </p>
       </div>
       <div className="services">
         <div className="service">
-          <img src={Services2} alt="Services2" />
+          <img src={Services1} alt="Services2" />
           <p>
-            He Printing and Typesetting the industry. <span>Lorem Ipsum</span>{" "}
-            has been the Industry's
+            Taking order
           </p>
-          <button>Read More</button>
+          {/* <button>Read More</button> */}
         </div>
         <div className="service yellow">
-          <img src={Services1} alt="Services1" />
+          <img src={Services2} alt="Services1" />
           <p>
-            He Printing and Typesetting the industry. <span>Lorem Ipsum</span>{" "}
-            has been the Industry's
+            Preparing Order
           </p>
-          <button>Read More</button>
+          {/* <button>Read More</button> */}
         </div>
         <div className="service">
           <img src={Services3} alt="Services3" />
           <p>
-            He Printing and Typesetting the industry. <span>Lorem Ipsum</span>{" "}
-            has been the Industry's
+            Deliver Order
           </p>
-          <button>Read More</button>
+          {/* <button>Read More</button> */}
         </div>
       </div>
     </Section>
@@ -60,7 +56,7 @@ const Section = styled.section`
       gap: 1.5vw;
       padding: 0 3vw;
       img {
-        height: 2.8rem;
+        height: 10rem;
       }
       p {
         text-align: center;

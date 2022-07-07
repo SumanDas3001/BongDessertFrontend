@@ -17,12 +17,13 @@ export default function Hero() {
           </h1>
         </div>
         <div className="info">
-          <h2>RETAILER</h2>
+          <h2>Dewan's Bakery</h2>
           <em>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
-            aspernatur itaque, eius quia voluptas numquam!
+            Baked specially for you!
           </em>
-          <button>ORDER NOW</button>
+          <a href="tel:+1-555-555-1212">
+            <button>ORDER NOW</button>
+          </a>
         </div>
       </div>
     </Section>
