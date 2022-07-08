@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import hero from "../assets/hero.jpg";
-import heroDesign from "../assets/HeroDesign.png";
+// import heroDesign from "../assets/HeroDesign.png";
 export default function Hero() {
   return (
     <Section id="home">
@@ -9,7 +9,7 @@ export default function Hero() {
         <img src={hero} alt="Background" />
       </div>
       <div className="content">
-        <div className="sale">
+        {/* <div className="sale">
           <img src={heroDesign} alt="Hero Design" />
           <h1>
             BIG SALE
@@ -24,7 +24,7 @@ export default function Hero() {
           <a href="tel:+1-555-555-1212">
             <button>ORDER NOW</button>
           </a>
-        </div>
+        </div> */}
       </div>
     </Section>
   );

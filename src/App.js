@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
-import Newsletter from "./components/Newsletter";
+// import Newsletter from "./components/Newsletter";
 import Portfolio from "./components/Portfolio";
 import Products from "./components/Products";
 import ScrollToTop from "./components/ScrollToTop";
@@ -43,7 +43,7 @@ export default function App() {
       <Portfolio />
       <Testimonials />
       <Products />
-      <Newsletter />
+      {/* <Newsletter /> */}
       <Footer />
     </>
   );

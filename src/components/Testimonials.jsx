@@ -18,7 +18,7 @@ export default function Testimonials() {
             <div className="image">
               <img src={avatar1} alt="avatar1" />
             </div>
-            <p>
+            <p className="text-white">
               He Printing and Typesetting the industry. <span>Lorem Ipsum</span>{" "}
               has been the Industry's
             </p>
@@ -27,7 +27,7 @@ export default function Testimonials() {
             <div className="image">
               <img src={avatar2} alt="avatar2" />
             </div>
-            <p>
+            <p className="text-white">
               He Printing and Typesetting the industry. <span>Lorem Ipsum</span>{" "}
               has been the Industry's
             </p>
@@ -36,7 +36,7 @@ export default function Testimonials() {
             <div className="image">
               <img src={avatar3} alt="avatar3" />
             </div>
-            <p>
+            <p className="text-white">
               He Printing and Typesetting the industry. <span>Lorem Ipsum</span>{" "}
               has been the Industry's
             </p>
@@ -54,10 +54,10 @@ const Section = styled.section`
   border-radius: 1.5rem;
   position: relative;
   .container {
-    margin: 0.5rem;
+    // margin: 0.5rem;
     padding-top: 1vw;
     padding-bottom: 4vw;
-    background-color: white;
+    // background-color: white;
     border-radius: 1rem;
     ${TitleStyles};
     .title {
@@ -85,7 +85,7 @@ const Section = styled.section`
           line-height: 2rem;
           letter-spacing: 0.1rem;
           span {
-            color: #fc4958;
+            color: #fff;
           }
         }
         ${imageZoomEffect};

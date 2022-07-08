@@ -43,9 +43,9 @@ export default function Navbar() {
           <li>
             <a href="#products">Products</a>
           </li>
-          <li>
+          {/* <li>
             <a href="#newsletter">Newsletter</a>
-          </li>
+          </li> */}
         </ul>
       </Nav>
       <ResponsiveNav state={navbarState} className={navbarState ? "show" : ""}>
@@ -79,11 +79,11 @@ export default function Navbar() {
               Products
             </a>
           </li>
-          <li>
+          {/* <li>
             <a href="#newsletter" onClick={() => setNavbarState(false)}>
               Newsletter
             </a>
-          </li>
+          </li> */}
         </ul>
       </ResponsiveNav>
     </>
