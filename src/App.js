@@ -8,7 +8,7 @@ import Navbar from "./components/Navbar";
 import ScrollToTop from "./components/ScrollToTop";
 // import Services from "./components/Services";
 // import Testimonials from "./components/Testimonials";
-import Testimonial from "./components/Testimonial";
+// import Testimonial from "./components/Testimonial";
 import Menue from "./components/Menue";
 
 // import scrollreveal from "scrollreveal";
@@ -22,11 +22,8 @@ export default function App() {
       <Navbar />
       <Hero />
       <About />
-      {/* <Services /> */}
-      {/* <Portfolio /> */}
       <Menue />
-      <Testimonial />
-      {/* <Newsletter /> */}
+      {/* <Testimonial /> */}
       <Contact />
       <Footer />
     </>

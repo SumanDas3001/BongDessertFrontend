@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import product1 from "../assets/product1.jpg";
 import product2 from "../assets/product2.jpg";
 import product3 from "../assets/product3.jpg";
@@ -11,9 +11,9 @@ import product9 from "../assets/product9.jpg";
 import product10 from "../assets/product10.jpg";
 import product11 from "../assets/product11.jpg";
 import product12 from "../assets/product12.jpg";
-// import InfiniteScroll from "react-infinite-scroll-component";
-// import React, { useState } from "react";
-// import Spinner from "./Spinner";
+import InfiniteScroll from "react-infinite-scroll-component";
+import React, { useState } from "react";
+import Spinner from "./Spinner";
 
 
 export default function Products() {
@@ -80,21 +80,28 @@ export default function Products() {
     }
   ];
 
+  const priceStyle = {
+    color: 'red', 
+    fontSize: '24x !important', 
+    fontWeight: '700',
+    marginBottom: '50px'
+  }
 
-  // const perPage = 3; 
-  // const [lastPosition, setLastPosition] = useState(perPage); 
-  // const [allPhotos, setAllPhotos] = useState(data.slice(0, perPage)); 
-  // const [hasMore, setHasmore] = useState(true); 
 
-  // const loadProducts = () => { 
-  //   setTimeout(() => { 
-  //     setAllPhotos((prev) => [...prev, ...data.slice(lastPosition, lastPosition + perPage)]
-  //   ); }, 2000); 
-  //   setLastPosition(lastPosition + perPage);
-  //   if (allPhotos.length === 12){
-  //     setHasmore(false) 
-  //   }
-  // };
+  const perPage = 3; 
+  const [lastPosition, setLastPosition] = useState(perPage); 
+  const [allPhotos, setAllPhotos] = useState(data.slice(0, perPage)); 
+  const [hasMore, setHasmore] = useState(true); 
+
+  const loadProducts = () => { 
+    setTimeout(() => { 
+      setAllPhotos((prev) => [...prev, ...data.slice(lastPosition, lastPosition + perPage)]
+    ); }, 2000); 
+    setLastPosition(lastPosition + perPage);
+    if (allPhotos.length === 12){
+      setHasmore(false) 
+    }
+  };
 
   return (
     <section id="menu" className="menu">
@@ -111,41 +118,40 @@ export default function Products() {
             <p>Menu</p>
             <h3>Cakes</h3>
           </div>
-          {/* <InfiniteScroll
+          <InfiniteScroll
             dataLength={allPhotos.length}
             next={loadProducts}
             hasMore={hasMore}
             loader={<Spinner />}
-          > */}
+          >
 
             <div className="container">
               <div className="row">
-                {data.map((product, index) => {
+                {allPhotos.map((product, index) => {
                   return (
-                    <div className="col-lg-4 col-md-6 col-sm-12 menu-item" key={index}>
+                    <div className="col-lg-4 col-md-6 col-sm-12" key={index}>
                       <a href={product.image} className="glightbox" >
                         <div>
                           <img
                             src={product.image}
-                            className="menu-img img-fluid"
+                            className="menu-img img-fluid img-responsive"
                             alt="product"
-                            style={{maxWidth: '100%',
-                              height: '300px',
-                              width: '400px'}}
+                            style={{width:'100%',
+                              height: '50vh'}}
                           />
                         </div>
                       </a>
-                      <h4>{product.name}</h4>
-                      <p className="ingredients">
+                      <h3 className="my-3 text-center">{product.name}</h3>
+                      <p className="ingredients text-center">
                         Lorem, deren, trataro, filede, nerada
                       </p>
-                      <p className="price">{product.price}</p>
+                      <h3 className="price text-center mb-10" style={priceStyle}>{product.price}</h3>
                     </div>
                   );
                 })}
               </div>
             </div>
-          {/* </InfiniteScroll> */}
+          </InfiniteScroll>
         </div>
 
       </div>
