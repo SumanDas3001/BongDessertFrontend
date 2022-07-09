@@ -1,126 +1,44 @@
 import React from "react";
-import styled from "styled-components";
-import hero from "../assets/hero.jpg";
-// import heroDesign from "../assets/HeroDesign.png";
+
 export default function Hero() {
   return (
-    <Section id="home">
-      <div className="background">
-        <img src={hero} alt="Background" />
-      </div>
-      <div className="content">
-        {/* <div className="sale">
-          <img src={heroDesign} alt="Hero Design" />
-          <h1>
-            BIG SALE
-            <span>50% OFF</span>
-          </h1>
+    <section id="hero" className="hero d-flex align-items-center section-bg">
+      <div className="container">
+        <div className="row justify-content-between gy-5">
+          <div className="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center align-items-lg-start text-center text-lg-start">
+            <h2 data-aos="fade-up">
+              Enjoy Your Healthy
+              <br />
+              Delicious Food
+            </h2>
+            <p data-aos="fade-up" data-aos-delay="100">
+              Sed autem laudantium dolores. Voluptatem itaque ea consequatur
+              eveniet. Eum quas beatae cumque eum quaerat.
+            </p>
+            {/* <div className="d-flex" data-aos="fade-up" data-aos-delay="200">
+              <a href="#book-a-table" className="btn-book-a-table">
+                Book a Table
+              </a>
+              <a
+                href="https://www.youtube.com/watch?v=LXb3EKWsInQ"
+                className="glightbox btn-watch-video d-flex align-items-center"
+              >
+                <i className="bi bi-play-circle"></i>
+                <span>Watch Video</span>
+              </a>
+            </div> */}
+          </div>
+          <div className="col-lg-5 order-1 order-lg-2 text-center text-lg-start">
+            <img
+              src="assets/img/hero-img.png"
+              className="img-fluid"
+              alt=""
+              data-aos="zoom-out"
+              data-aos-delay="300"
+            />
+          </div>
         </div>
-        <div className="info">
-          <h2>Dewan's Bakery</h2>
-          <em>
-            Baked specially for you!
-          </em>
-          <a href="tel:+1-555-555-1212">
-            <button>ORDER NOW</button>
-          </a>
-        </div> */}
       </div>
-    </Section>
+    </section>
   );
 }
-
-const Section = styled.section`
-  height: 90vh;
-  width: 100vw;
-  position: relative;
-  .background {
-    height: 100%;
-    img {
-      object-fit: cover;
-      width: 100%;
-      height: 100%;
-      filter: brightness(60%);
-    }
-  }
-  .content {
-    position: absolute;
-    top: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 100%;
-    width: 100%;
-    .sale {
-      position: relative;
-      left: 10%;
-      img {
-        height: 70vh;
-      }
-      h1 {
-        color: white;
-        position: absolute;
-        top: 25vh;
-        left: 15vh;
-        font-size: 4.5rem;
-        span {
-          display: block;
-          font-size: 5vw;
-        }
-      }
-    }
-    .info {
-      position: absolute;
-      top: 40%;
-      right: 10%;
-      display: flex;
-      flex-direction: column;
-      align-items: flex-end;
-      gap: 1rem;
-      h2 {
-        color: #f9c74f;
-        font-size: 4rem;
-        letter-spacing: 0.5rem;
-      }
-      em {
-        color: white;
-        width: 60%;
-        text-align: end;
-        font-size: 1.1rem;
-        line-height: 2rem;
-        letter-spacing: 0.1rem;
-      }
-      button {
-        padding: 1rem 2rem;
-        font-size: 1.4rem;
-        background-color: #fc4958;
-        border: none;
-        color: white;
-        font-weight: 800;
-        letter-spacing: 0.2rem;
-        transition: 0.3s ease-in-out;
-        cursor: pointer;
-        &:hover {
-          background-color: #f9c74f;
-        }
-      }
-    }
-  }
-  @media screen and (min-width: 260px) and (max-width: 1080px) {
-    .content {
-      flex-direction: column;
-      .sale {
-        display: none;
-      }
-      .info {
-        top: 25%;
-        h2 {
-          font-size: 2rem;
-        }
-        em {
-          width: 90%;
-        }
-      }
-    }
-  }
-`;
