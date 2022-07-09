@@ -96,7 +96,7 @@ export default function Products() {
   const loadProducts = () => { 
     setTimeout(() => { 
       setAllPhotos((prev) => [...prev, ...data.slice(lastPosition, lastPosition + perPage)]
-    ); }, 2000); 
+    ); }, 500); 
     setLastPosition(lastPosition + perPage);
     if (allPhotos.length === 12){
       setHasmore(false) 
