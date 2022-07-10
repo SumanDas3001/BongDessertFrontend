@@ -1,4 +1,3 @@
-import React from "react";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
@@ -8,12 +7,16 @@ import Navbar from "./components/Navbar";
 import ScrollToTop from "./components/ScrollToTop";
 // import Services from "./components/Services";
 // import Testimonials from "./components/Testimonials";
-// import Testimonial from "./components/Testimonial";
+import Testimonial from "./components/Testimonial";
 import Menue from "./components/Menue";
 
 // import scrollreveal from "scrollreveal";
 import Contact from "./components/Contact";
 import About from "./components/About";
+import React from "react";
+import cakeShopData from "./cakeShopData.json";
+
+
 
 export default function App() {
   return (
@@ -23,7 +26,7 @@ export default function App() {
       <Hero />
       <About />
       <Menue />
-      {/* <Testimonial /> */}
+      <Testimonial data={cakeShopData.testimonials} />
       <Contact />
       <Footer />
     </>

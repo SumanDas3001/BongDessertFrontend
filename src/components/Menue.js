@@ -11,9 +11,9 @@ import product9 from "../assets/product9.jpg";
 import product10 from "../assets/product10.jpg";
 import product11 from "../assets/product11.jpg";
 import product12 from "../assets/product12.jpg";
-import InfiniteScroll from "react-infinite-scroll-component";
-import React, { useState } from "react";
-import Spinner from "./Spinner";
+// import InfiniteScroll from "react-infinite-scroll-component";
+import React from "react";
+// import Spinner from "./Spinner";
 
 
 export default function Products() {
@@ -88,20 +88,20 @@ export default function Products() {
   }
 
 
-  const perPage = 3; 
-  const [lastPosition, setLastPosition] = useState(perPage); 
-  const [allPhotos, setAllPhotos] = useState(data.slice(0, perPage)); 
-  const [hasMore, setHasmore] = useState(true); 
+  // const perPage = 3; 
+  // const [lastPosition, setLastPosition] = useState(perPage); 
+  // const [allPhotos, setAllPhotos] = useState(data.slice(0, perPage)); 
+  // const [hasMore, setHasmore] = useState(true); 
 
-  const loadProducts = () => { 
-    setTimeout(() => { 
-      setAllPhotos((prev) => [...prev, ...data.slice(lastPosition, lastPosition + perPage)]
-    ); }, 500); 
-    setLastPosition(lastPosition + perPage);
-    if (allPhotos.length === 12){
-      setHasmore(false) 
-    }
-  };
+  // const loadProducts = () => { 
+  //   setTimeout(() => { 
+  //     setAllPhotos((prev) => [...prev, ...data.slice(lastPosition, lastPosition + perPage)]
+  //   ); }, 500); 
+  //   setLastPosition(lastPosition + perPage);
+  //   if (allPhotos.length === 12){
+  //     setHasmore(false) 
+  //   }
+  // };
 
   return (
     <section id="menu" className="menu">
@@ -118,16 +118,16 @@ export default function Products() {
             <p>Menu</p>
             <h3>Cakes</h3>
           </div>
-          <InfiniteScroll
+          {/* <InfiniteScroll
             dataLength={allPhotos.length}
             next={loadProducts}
             hasMore={hasMore}
             loader={<Spinner />}
-          >
+          > */}
 
             <div className="container">
               <div className="row">
-                {allPhotos.map((product, index) => {
+                {data.map((product, index) => {
                   return (
                     <div className="col-lg-4 col-md-6 col-sm-12" key={index}>
                       <a href={product.image} className="glightbox" >
@@ -151,7 +151,7 @@ export default function Products() {
                 })}
               </div>
             </div>
-          </InfiniteScroll>
+          {/* </InfiniteScroll> */}
         </div>
 
       </div>

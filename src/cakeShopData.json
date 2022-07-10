@@ -1,0 +1,88 @@
+{
+  "main": {
+    "name":"Suman Das",
+    "contactmessage":"Have a project for me? Think I'd be a good fit for your team? I'd love to hear from you, give me a shout by email below if you'd like to get in contact with me.",
+    "email": "sumandas3001@gmail.com",
+    "phone": "+91 9123364238",
+    "address":{
+      "street":"Pacific Avenue",
+      "city":"Ahmedabad",
+      "state":"Ghujrat",
+      "zip": "380015"
+    },
+    "website": "http://www.timbakerdev.com",
+    "resumedownload":"https://drive.google.com/file/d/1YqCgKN-dPQuP6TLUlEZ7wpz0kkdFnRHP/view?usp=sharing",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"https://www.facebook.com/profile.php?id=100006119806373",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/suman-das-9068b5142/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"https://www.instagram.com/sumangraphy/",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"stack-overflow",
+        "url":"https://stackoverflow.com/users/8427113/suman-das",
+        "className":"fa fa-stack-overflow"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/SumanDas3001",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Blog website",
+        "category":"Blog website is a tech blog website.",
+        "image":"blog_and_portfolio.jpg",
+        "url":"http://sumandas-portfolio.herokuapp.com"
+      },
+      {
+        "title":"Resume website",
+        "category":"This is my resume website.",
+        "image":"resume.jpg",
+        "url":"http://www.sumandas.com"
+      }
+    ]
+  },
+  "testimonials":{
+    "testimonials":[
+      {
+        "text":"I have worked with suman on some projects in yottolabs, he is very committed towards his daily task and always search for the solution in every possible way , he is very punctual and always try to help and encourage others.",
+        "user":"Saheb Seikh",
+        "image": "testimonials-1.jpg",
+        "rating": "5" 
+      },
+      {
+        "text":"Suman is a very talented and enthusiastic person. I have seen him come office and work indefinitely until his project was complete. He is always energetic and his skills are very good.",
+        "user":"Samir Das",
+        "image": "testimonials-2.jpg",
+        "rating": "5"
+      },
+      {
+        "text":"Suman is a very talented and enthusiastic person. I have seen him come office and work indefinitely until his project was complete. He is always energetic and his skills are very good.",
+        "user":"Sampa Das",
+        "image": "testimonials-3.jpg",
+        "rating": "5"
+      },
+      {
+        "text":"Suman is a very talented and enthusiastic person. I have seen him come office and work indefinitely until his project was complete. He is always energetic and his skills are very good.",
+        "user":"Koustav Gorain",
+        "image": "testimonials-4.jpg",
+        "rating": "5"
+      }
+    ]
+  }
+}
