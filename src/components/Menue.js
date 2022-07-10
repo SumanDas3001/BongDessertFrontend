@@ -136,8 +136,7 @@ export default function Products() {
                             src={product.image}
                             className="menu-img img-fluid img-responsive"
                             alt="product"
-                            style={{width:'100%',
-                              height: '50vh'}}
+                            style={{maxWidth: '100%', height: 'auto'}}
                           />
                         </div>
                       </a>
