@@ -7,30 +7,29 @@ export default function Hero() {
         <div className="row justify-content-between gy-5">
           <div className="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center align-items-lg-start text-center text-lg-start">
             <h2 data-aos="fade-up">
-              Enjoy Your Healthy
+              Enjoy Our Testy
               <br />
-              Delicious Food
+              Cake's
             </h2>
             <p data-aos="fade-up" data-aos-delay="100">
-              Sed autem laudantium dolores. Voluptatem itaque ea consequatur
-              eveniet. Eum quas beatae cumque eum quaerat.
+              We are thrilled to offer your our hand made freshly made Cake's in a wide range of variations. 
             </p>
-            {/* <div className="d-flex" data-aos="fade-up" data-aos-delay="200">
-              <a href="#book-a-table" className="btn-book-a-table">
-                Book a Table
+            <div className="d-flex" data-aos="fade-up" data-aos-delay="200">
+              <a href="tel://+1234567890" className="btn-book-a-table">
+                Order Now
               </a>
-              <a
+              {/* <a
                 href="https://www.youtube.com/watch?v=LXb3EKWsInQ"
                 className="glightbox btn-watch-video d-flex align-items-center"
               >
                 <i className="bi bi-play-circle"></i>
                 <span>Watch Video</span>
-              </a>
-            </div> */}
+              </a> */}
+            </div>
           </div>
           <div className="col-lg-5 order-1 order-lg-2 text-center text-lg-start">
             <img
-              src="assets/img/hero-img.png"
+              src="assets/img/slashio-photography-0uBlylsBuWk-unsplash-removebg-preview.png"
               className="img-fluid"
               alt=""
               data-aos="zoom-out"

@@ -11,7 +11,7 @@ import Testimonial from "./components/Testimonial";
 import Menue from "./components/Menue";
 
 // import scrollreveal from "scrollreveal";
-import Contact from "./components/Contact";
+// import Contact from "./components/Contact";
 import About from "./components/About";
 import React from "react";
 import cakeShopData from "./cakeShopData.json";
@@ -27,7 +27,7 @@ export default function App() {
       <About />
       <Menue />
       <Testimonial data={cakeShopData.testimonials} />
-      <Contact />
+      {/* <Contact /> */}
       <Footer />
     </>
   );

@@ -5,43 +5,62 @@ import { AiFillInstagram } from "react-icons/ai";
 import { FaFacebookF } from "react-icons/fa";
 export default function Footer() {
   return (
-    <div className="footer">
-      <Section>
-        <div className="brand container">
-          <img src={logo} alt="logo" />
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis,
-            repudiandae.
-          </p>
-          <ul>
-            <li>
-              <AiFillInstagram />
-            </li>
-            <li>
-              <FaFacebookF />
-            </li>
-          </ul>
-        </div>
-        <div className="about container">
-          <div className="title">
-            <h3>About Us</h3>
+    <div id="contact">
+      <div className="section-header footer-pading" style={{marginTop: '10px'}}>
+        <h2>Contact</h2>
+        <p>
+          Need Help? <span>Contact Us</span>
+        </p>
+      </div>
+      <div className="mb-0">
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12178.318635062156!2d88.31385730471848!3d23.444839670807994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f9034618e9ac9d%3A0x8087d47345b19d3a!2sParulia%20K%20K%20High%20School!5e0!3m2!1sen!2sin!4v1657467573865!5m2!1sen!2sin" 
+          style={{ border: "0", width: "100%", height: "350px" }} 
+          allowFullScreen="" 
+          loading="lazy" 
+          referrerPolicy="no-referrer-when-downgrade"
+          title="location map"
+        ></iframe>
+      </div>
+      <div className="footer">
+        <Section>
+          <div className="brand container">
+            <img src={logo} alt="logo" />
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis,
+              repudiandae.
+            </p>
+            <ul>
+              <li>
+                <AiFillInstagram />
+              </li>
+              <li>
+                <FaFacebookF />
+              </li>
+            </ul>
           </div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam,
-            eligendi repellat laudantium blanditiis iure nulla, ut aliquam
-            itaque unde nesciunt cum veritatis perferendis vel expedita! Nam
-          </p>
-        </div>
-        <div className="contact container">
-          <div className="title">
-            <h3>Contact Us</h3>
+          <div className="about container">
+            <div className="title">
+              <h3>About Us</h3>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam,
+              eligendi repellat laudantium blanditiis iure nulla, ut aliquam
+              itaque unde nesciunt cum veritatis perferendis vel expedita! Nam
+            </p>
           </div>
-          <p>+91 1231231231</p>
-          <p>foodyummy@gmail.com</p>
-          <p>@foodyummy</p>
-          <p>412 Street, Ground Floor, India</p>
-        </div>
-      </Section>
+          <div className="contact container">
+            <div className="title">
+              <h3>Contact Us</h3>
+            </div>
+            <p><a href="tel://+1234567890" className="text-white">+91 1231231231</a></p>
+            {/* <p>+91 1231231231</p> */}
+            {/* <p>dewanscake@gmail.com</p> */}
+            <p>@dewanscake</p>
+            <p>Purbasthali, West Bengal</p>
+          </div>
+        </Section>
+      </div>
     </div>
   );
 }

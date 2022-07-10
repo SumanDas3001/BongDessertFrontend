@@ -72,6 +72,10 @@ section {
   padding-bottom: 30px;
 }
 
+.footer-pading {
+  padding-top: 200px;
+}
+
 .section-header h2 {
   font-size: 13px;
   letter-spacing: 1px;
