@@ -7,7 +7,7 @@ import product6 from "../assets/product16.jpg";
 import product7 from "../assets/product7.jpg";
 import product8 from "../assets/product8.jpg";
 import product9 from "../assets/product9.jpg";
-import product10 from "../assets/product10.jpg";
+import product10 from "../assets/product20.jpg";
 import product11 from "../assets/product11.jpg";
 import product12 from "../assets/product18.jpg";
 // import InfiniteScroll from "react-infinite-scroll-component";
