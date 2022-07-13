@@ -1,17 +1,17 @@
 {
   "main": {
-    "name":"Suman Das",
+    "name":"Hungry Bakery",
     "contactmessage":"Have a project for me? Think I'd be a good fit for your team? I'd love to hear from you, give me a shout by email below if you'd like to get in contact with me.",
-    "email": "sumandas3001@gmail.com",
-    "phone": "+91 9123364238",
+    "email": "hungrybakery@gmail.com",
+    "phone": "+91 1234567890",
     "address":{
-      "street":"Pacific Avenue",
-      "city":"Ahmedabad",
-      "state":"Ghujrat",
-      "zip": "380015"
+      "street":"Parulia, Purbasthali",
+      "city":"Purba Bardhaman",
+      "state":"West Bengal",
+      "zip": "713513"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload":"https://drive.google.com/file/d/1YqCgKN-dPQuP6TLUlEZ7wpz0kkdFnRHP/view?usp=sharing",
+    "website": "http://www.hungrybakery.com",
+    "menudownload":"https://drive.google.com/file/d/1YqCgKN-dPQuP6TLUlEZ7wpz0kkdFnRHP/view?usp=sharing",
     "social":[
       {
         "name":"facebook",
@@ -19,24 +19,9 @@
         "className":"fa fa-facebook"
       },
       {
-        "name":"linkedin",
-        "url":"https://www.linkedin.com/in/suman-das-9068b5142/",
-        "className":"fa fa-linkedin"
-      },
-      {
         "name":"instagram",
         "url":"https://www.instagram.com/sumangraphy/",
         "className":"fa fa-instagram"
-      },
-      {
-        "name":"stack-overflow",
-        "url":"https://stackoverflow.com/users/8427113/suman-das",
-        "className":"fa fa-stack-overflow"
-      },
-      {
-        "name":"github",
-        "url":"https://github.com/SumanDas3001",
-        "className":"fa fa-github"
       }
     ]
   },
