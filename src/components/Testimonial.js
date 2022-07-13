@@ -29,7 +29,7 @@ export default function Testimonial(props) {
                           <i className="bi bi-quote quote-icon-right"></i>
                         </p>
                         <h3>{testimonial.user}</h3>
-                        <h4>Ceo &amp; Founder</h4>
+                        {/* <h4>Ceo &amp; Founder</h4> */}
                         <div className="stars">
                           <i className="bi bi-star-fill"></i>
                           <i className="bi bi-star-fill"></i>

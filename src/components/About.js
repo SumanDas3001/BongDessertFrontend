@@ -19,8 +19,7 @@ export default function About() {
           >
             <div className="content ps-0 ps-lg-5">
               <p className="fst-italic">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                We are makes it easy to delight your family, friends and colleagues with our freshly baked desserts delivered right to their doorstep ready to enjoy.  Our experienced bakers mix all of our batters and frostings by hand, just like grandma used to make.  We always bake with whole buttermilk, fresh eggs and real butter – never a cake mix or commercially made frostings.  
               </p>
               <ul>
                 <li>
@@ -38,12 +37,12 @@ export default function About() {
                   dolore eu fugiat nulla pariatur.
                 </li>
               </ul>
-              <p>
+              {/* <p>
                 Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
                 aute irure dolor in reprehenderit in voluptate velit esse cillum
                 dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                 cupidatat non proident
-              </p>
+              </p> */}
             </div>
           </div>
         </div>
