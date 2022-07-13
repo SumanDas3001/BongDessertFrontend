@@ -58,8 +58,8 @@ export default function Footer() {
             <div className="col-lg-4 col-md-6 footer-links">
               <h4>Follow Us</h4>
               <div className="social-links d-flex">
-                <a href="/" className="facebook"><i className="bi bi-facebook"></i></a>
-                <a href="/" className="instagram"><i className="bi bi-instagram"></i></a>
+                <a href="/" className="facebook" target="_blank"><i className="bi bi-facebook"></i></a>
+                <a href="/" className="instagram" target="_blank"><i className="bi bi-instagram"></i></a>
               </div>
             </div>
           </div>
@@ -72,8 +72,5 @@ export default function Footer() {
         </div>
       </div>
     </>
-
-
-      
   );
 }

@@ -1,16 +1,15 @@
-// import React from "react";
-import product1 from "../assets/product1.jpg";
+import product1 from "../assets/product13.jpg";
 import product2 from "../assets/product2.jpg";
 import product3 from "../assets/product3.jpg";
 import product4 from "../assets/product4.jpg";
-import product5 from "../assets/product5.jpg";
-import product6 from "../assets/product6.jpg";
+import product5 from "../assets/product15.jpg";
+import product6 from "../assets/product16.jpg";
 import product7 from "../assets/product7.jpg";
 import product8 from "../assets/product8.jpg";
 import product9 from "../assets/product9.jpg";
 import product10 from "../assets/product10.jpg";
 import product11 from "../assets/product11.jpg";
-import product12 from "../assets/product12.jpg";
+import product12 from "../assets/product18.jpg";
 // import InfiniteScroll from "react-infinite-scroll-component";
 import React from "react";
 // import Spinner from "./Spinner";
@@ -152,7 +151,6 @@ export default function Products() {
             </div>
           {/* </InfiniteScroll> */}
         </div>
-
       </div>
     </section>
   );
