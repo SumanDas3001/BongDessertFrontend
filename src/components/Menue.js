@@ -133,9 +133,9 @@ export default function Products() {
                         <div>
                           <img
                             src={product.image}
-                            className="menu-img img-fluid img-responsive"
+                            className="menu-img img-fluid img-responsive rounded mx-auto d-block img-thumbnail"
                             alt="product"
-                            style={{maxWidth: '100%', height: 'auto'}}
+                            style={{width: "300px", height: "300px"}}
                           />
                         </div>
                       </a>
