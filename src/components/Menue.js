@@ -113,10 +113,6 @@ export default function Products() {
         </div>
 
         <div className="tab-content" data-aos="fade-up" data-aos-delay="300">
-          {/* <div className="tab-header text-center">
-            <p>Menu</p>
-            <h3>Cakes</h3>
-          </div> */}
           {/* <InfiniteScroll
             dataLength={allPhotos.length}
             next={loadProducts}

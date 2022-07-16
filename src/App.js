@@ -22,7 +22,7 @@ export default function App() {
   return (
     <>
       <ScrollToTop />
-      <Navbar />
+      <Navbar data={cakeShopData.main} />
       <Hero />
       <About />
       <Menue />

@@ -1,10 +1,10 @@
 import React from "react";
 
-export default function Home() {
+export default function Home(props) {
   return (
     <nav className="navbar fixed-top navbar-expand-lg bg-light">
       <div className="container">
-        <a className="navbar-brand" href="#hero"><h2 data-aos="fade-up">Hungry Bakery</h2></a>
+        <a className="navbar-brand" href="#hero"><h2 data-aos="fade-up">{props.data.name}</h2></a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
