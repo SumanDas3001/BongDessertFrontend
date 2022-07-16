@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Hero() {
+export default function Hero(props) {
   return (
     <section id="hero" className="hero d-flex align-items-center section-bg">
       <div className="container">
@@ -12,10 +12,10 @@ export default function Hero() {
               Cake's
             </h2>
             <p data-aos="fade-up" data-aos-delay="100">
-              We are thrilled to offer your our hand made freshly made Cake's in a wide range of variations. 
+              {props.data.bannerContent} 
             </p>
             <div className="d-flex" data-aos="fade-up" data-aos-delay="200">
-              <a href="tel://+1234567890" className="btn-book-a-table">
+              <a href={`tel://${props.data.phone}`} className="btn-book-a-table">
                 Order Now
               </a>
               {/* <a

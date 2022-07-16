@@ -20,7 +20,7 @@ export default function Footer(props) {
               <h4>For Order</h4>
               <p>
                 <strong>Phone:</strong> <a href={`tel://${props.data.phone}`} className="text-white">{props.data.phone}</a><br/>
-                {/* <strong>Email:</strong> info@example.com<br/> */}
+                <strong>Email:</strong> {props.data.email}<br/>
               </p>
             </div>
           </div>
@@ -28,8 +28,8 @@ export default function Footer(props) {
           <div className="col-lg-4 col-md-6 footer-links">
             <h4>Follow Us</h4>
             <div className="social-links d-flex">
-              <a href="/" className="facebook" target="_blank"><i className="bi bi-facebook"></i></a>
-              <a href="/" className="instagram" target="_blank"><i className="bi bi-instagram"></i></a>
+              <a href="https://www.facebook.com/thebongdessert" className="facebook" target="_blank" rel="noreferrer"><i className="bi bi-facebook"></i></a>
+              <a href="https://www.instagram.com/moumitadewan301/" className="instagram" target="_blank" rel="noreferrer"><i className="bi bi-instagram"></i></a>
             </div>
           </div>
         </div>

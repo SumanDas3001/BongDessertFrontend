@@ -19,62 +19,62 @@ export default function Products() {
   const data = [
     {
       image: product1,
-      name: "Chicken Burger",
+      name: "Butterscotch rose cake",
       price: "RS 22.4/pcs",
     },
     {
       image: product2,
-      name: "Toasted Bread",
+      name: "Full rose cake",
       price: "RS 5.5/pcs",
     },
     {
       image: product3,
-      name: "Egg Sandwich",
-      price: "RS 8/pcs",
+      name: "Butterscotch cake",
+      price: "RS 350/pcs 1 Pound",
     },
     {
       image: product4,
-      name: "Raspberry Cake",
+      name: "Chocolate truffel/overloaded cake",
       price: "RS 12.5/pcs",
     },
     {
       image: product5,
-      name: "Chicken Burger",
+      name: "Black forest cake",
       price: "RS 22.4/pcs",
     },
     {
       image: product6,
-      name: "Toasted Bread",
+      name: "Red velvet cake",
       price: "RS 5.5/pcs",
     },
     {
       image: product7,
-      name: "Egg Sandwich",
+      name: "Doll cake",
       price: "RS 8/pcs",
     },
     {
       image: product8,
-      name: "Raspberry Cake",
+      name: "Strawberry flavour cake",
       price: "RS 12.5/pcs",
     },
     {
       image: product9,
-      name: "Chicken Burger",
+      name: "Pineapple cake",
       price: "RS 22.4/pcs",
     },
     {
       image: product10,
-      name: "Toasted Bread",
+      name: "Orange flavour cake",
       price: "RS 5.5/pcs",
     },
     {
       image: product11,
-      name: "Egg Sandwich",
+      name: "Gravity cake",
       price: "RS 8/pcs",
     },
     {
       image: product12,
-      name: "Raspberry Cake",
+      name: "Rashamalia cake",
       price: "RS 12.5/pcs",
     }
   ];
@@ -83,7 +83,8 @@ export default function Products() {
     color: 'red', 
     fontSize: '24x !important', 
     fontWeight: '700',
-    marginBottom: '50px'
+    marginBottom: '50px',
+    paddingBottom: '40px'
   }
 
 
@@ -135,11 +136,11 @@ export default function Products() {
                           />
                         </div>
                       </a>
-                      <h3 className="my-3 text-center">{product.name}</h3>
-                      <p className="ingredients text-center">
+                      <h3 className="my-3 text-center" style={priceStyle}>{product.name}</h3>
+                      {/* <p className="ingredients text-center">
                         Lorem, deren, trataro, filede, nerada
-                      </p>
-                      <h3 className="price text-center mb-10" style={priceStyle}>{product.price}</h3>
+                      </p> */}
+                      {/* <h3 className="price text-center mb-10" style={priceStyle}>{product.price}</h3> */}
                     </div>
                   );
                 })}

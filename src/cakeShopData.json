@@ -1,9 +1,10 @@
 {
   "main": {
     "name":"Bong Dessert",
-    "contactmessage":"Have a project for me? Think I'd be a good fit for your team? I'd love to hear from you, give me a shout by email below if you'd like to get in contact with me.",
-    "email": "hungrybakery@gmail.com",
-    "phone": "+91 1234567890",
+    "bannerContent":"We are thrilled to offer your our hand made freshly made Cake's in a wide range of variations.",
+    "about": "We are makes it easy to delight your family, friends and colleagues with our freshly baked desserts delivered right to their doorstep ready to enjoy. Our experienced bakers mix all of our batters and frostings by hand, just like grandma used to make. We always bake with whole buttermilk, fresh eggs and real butter – never a cake mix or commercially made frostings.",
+    "email": "bongdessert@gmail.com",
+    "phone": "+91 9330349714",
     "address":{
       "street":"Parulia, Purbasthali",
       "city":"Purba Bardhaman",
@@ -45,27 +46,27 @@
   "testimonials":{
     "testimonials":[
       {
-        "text":"I have worked with suman on some projects in yottolabs, he is very committed towards his daily task and always search for the solution in every possible way , he is very punctual and always try to help and encourage others.",
-        "user":"Saheb Seikh",
-        "image": "testimonials-1.jpg",
+        "text":"Just wanted to say a huge thank you for the most amazing cake, it’s absolutely perfect, better than we could of ever imagined!!! You’re amazing at what you do.",
+        "user":"Partha Karmakar",
+        "image": "avatar1.jpeg",
         "rating": "5" 
       },
       {
-        "text":"Suman is a very talented and enthusiastic person. I have seen him come office and work indefinitely until his project was complete. He is always energetic and his skills are very good.",
-        "user":"Samir Das",
-        "image": "testimonials-2.jpg",
+        "text":"Oh Moumita, thankyou, thankyou, thankyou! That cake is delicious and all loves it.",
+        "user":"Bapan Saha",
+        "image": "avatar2.jpeg",
         "rating": "5"
       },
       {
-        "text":"Suman is a very talented and enthusiastic person. I have seen him come office and work indefinitely until his project was complete. He is always energetic and his skills are very good.",
-        "user":"Sampa Das",
-        "image": "testimonials-3.jpg",
+        "text":"Just wanted to say a massive thank you from Mrs Potter & I! We absolutely loved the cake, as did all of our guests. You nailed it!",
+        "user":"Santanu Sen",
+        "image": "avatar3.jpeg",
         "rating": "5"
       },
       {
-        "text":"Suman is a very talented and enthusiastic person. I have seen him come office and work indefinitely until his project was complete. He is always energetic and his skills are very good.",
-        "user":"Koustav Gorain",
-        "image": "testimonials-4.jpg",
+        "text":"Many thanks Moumita for the beautiful cake. My daughter loved it and it made her day special.",
+        "user":"Sathi Gorain",
+        "image": "avatar4.jpg",
         "rating": "5"
       }
     ]
