@@ -29,7 +29,7 @@ export default function Footer(props) {
             <h4>Follow Us</h4>
             <div className="social-links d-flex">
               <a href="https://www.facebook.com/thebongdessert" className="facebook" target="_blank" rel="noreferrer"><i className="bi bi-facebook"></i></a>
-              <a href="https://www.instagram.com/moumitadewan301/" className="instagram" target="_blank" rel="noreferrer"><i className="bi bi-instagram"></i></a>
+              <a href="https://www.instagram.com/thebongdessert/" className="instagram" target="_blank" rel="noreferrer"><i className="bi bi-instagram"></i></a>
             </div>
           </div>
         </div>

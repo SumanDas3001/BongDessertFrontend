@@ -1,4 +1,4 @@
-import product1 from "../assets/product13.jpg";
+import product1 from "../assets/product1.jpg";
 import product2 from "../assets/product2.jpg";
 import product3 from "../assets/product3.jpg";
 import product4 from "../assets/product4.jpg";
@@ -10,6 +10,10 @@ import product9 from "../assets/product9.jpg";
 import product10 from "../assets/product20.jpg";
 import product11 from "../assets/product11.jpg";
 import product12 from "../assets/product18.jpg";
+import product13 from "../assets/product13.jpg";
+import product21 from "../assets/product21.jpg";
+import product22 from "../assets/product22.jpg";
+
 // import InfiniteScroll from "react-infinite-scroll-component";
 import React from "react";
 // import Spinner from "./Spinner";
@@ -19,7 +23,7 @@ export default function Products() {
   const data = [
     {
       image: product1,
-      name: "Butterscotch rose cake",
+      name: "Strawberry flavour cake",
       price: "RS 22.4/pcs",
     },
     {
@@ -75,6 +79,21 @@ export default function Products() {
     {
       image: product12,
       name: "Rashamalia cake",
+      price: "RS 12.5/pcs",
+    },
+    {
+      image: product13,
+      name: "Butterscotch rose cake",
+      price: "RS 12.5/pcs",
+    },
+    {
+      image: product21,
+      name: "Two tier cake",
+      price: "RS 12.5/pcs",
+    },
+    {
+      image: product22,
+      name: "Butterscotch cake",
       price: "RS 12.5/pcs",
     }
   ];
