@@ -30,6 +30,7 @@ export default function Footer(props) {
             <div className="social-links d-flex">
               <a href="https://www.facebook.com/thebongdessert" className="facebook" target="_blank" rel="noreferrer"><i className="bi bi-facebook"></i></a>
               <a href="https://www.instagram.com/thebongdessert/" className="instagram" target="_blank" rel="noreferrer"><i className="bi bi-instagram"></i></a>
+              <a href="https://goo.gl/maps/yWyMkz7LsrQpjsWj9" className="store" target="_blank" rel="noreferrer"><i className="fa fa-map-marker" style={{fontSize:'20px'}}></i></a>
             </div>
           </div>
         </div>

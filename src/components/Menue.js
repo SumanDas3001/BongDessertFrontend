@@ -99,7 +99,7 @@ export default function Products() {
   ];
 
   const priceStyle = {
-    color: 'red', 
+    // color: 'red', 
     fontSize: '24x !important', 
     fontWeight: '700',
     marginBottom: '50px',
