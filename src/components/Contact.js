@@ -11,7 +11,7 @@ export default function Contact() {
       </div>
       <div className="mb-0">
         <iframe 
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12178.318635062156!2d88.31385730471848!3d23.444839670807994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f9034618e9ac9d%3A0x8087d47345b19d3a!2sParulia%20K%20K%20High%20School!5e0!3m2!1sen!2sin!4v1657467573865!5m2!1sen!2sin" 
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d924.9903556831362!2d88.31545133506908!3d23.448021506413735!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f9032bf3e96743%3A0x2d7742b4ea878b59!2sThe%20Bong%20Dessert!5e0!3m2!1sen!2sin!4v1660054919483!5m2!1sen!2sin" 
           style={{ border: "0", width: "100%", height: "350px" }} 
           allowFullScreen="" 
           loading="lazy" 
