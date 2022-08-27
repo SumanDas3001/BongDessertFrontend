@@ -4,6 +4,9 @@ export default function Home(props) {
   return (
     <nav className="navbar fixed-top navbar-expand-lg bg-light">
       <div className="container">
+        <a class="navbar-brand" href="#hero">
+          <img src="https://bongdessert.s3.amazonaws.com/Bong+Dessert+Logo.png" alt="" width="50" height="50" style={{borderRadius: '50%'}} />
+        </a>
         <a className="navbar-brand" href="#hero"><h2 data-aos="fade-up">{props.data.name}</h2></a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
