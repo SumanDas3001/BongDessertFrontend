@@ -2,9 +2,21 @@ import React from 'react'
 import { Container, Row, Col, ListGroup, ListGroupItem } from 'reactstrap'
 
 import "../../styles/footer.css";
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 const Footer = () => {
+
+  const handleClick = (url) => {
+    if (url === 'facebook'){
+      window.open('https://www.facebook.com/thebongdessert', '_blank');
+    }else if(url === 'instagram') {
+      window.open('https://www.instagram.com/thebongdessert/', '_blank');
+
+    } else if (url === 'twitter'){
+      window.open('https://twitter.com/thebongdessert', '_blank');
+    }
+  }
+
   return (
     <footer className='footer' >
       <Container>
@@ -20,13 +32,13 @@ const Footer = () => {
             <h4 className='footer__title'>Delivery Time</h4>
             <ListGroup>
               <ListGroupItem className=' delivery__time-item border-0 ps-0'>
-                <span>Sunday - Thursday</span>
-                <p>10:00 AM - 11:00 PM</p>
+                <span>Monday to Sunday</span>
+                <p>Open 24 hours</p>
               </ListGroupItem>
-              <ListGroupItem className=' delivery__time-item border-0 ps-0'>
+              {/* <ListGroupItem className=' delivery__time-item border-0 ps-0'>
                 <span>Friday - Saturday</span>
                 <p>10:00 AM - 11:00 PM</p>
-              </ListGroupItem>
+              </ListGroupItem> */}
             </ListGroup>
           </Col>
           <Col lg='3' md='4' sm='6'>
@@ -56,22 +68,18 @@ const Footer = () => {
               {/* <p className='m-0'>Follow Us: </p> */}
               <span>
                 {" "}
-                <Link to="https://www.facebook.com/muhib160">
-                  <i className="ri-facebook-line"></i>
-                </Link>{" "}
+                  <i className='ri-facebook-line' onClick={() => handleClick('facebook')}></i>
+                {" "}
               </span>
 
               <span>
-                <Link to="https://github.com/muhib160">
-                  <i className="ri-instagram-line"></i>
-                </Link>
+                <i className='ri-instagram-line' onClick={() => handleClick('instagram')}></i>
               </span>
 
               <span>
                 {" "}
-                <Link to=" https://www.linkedin.com/in/muhib160/">
-                  <i className="ri-twitter-line"></i>
-                </Link>{" "}
+                  <i className='ri-twitter-line' onClick={() => handleClick('facebook')}></i>
+                {" "}
               </span>
             </div>
           </Col>

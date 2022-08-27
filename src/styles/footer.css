@@ -78,6 +78,7 @@
   background: #df2020;
   color: #fff;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .copyright__text {
