@@ -100,9 +100,9 @@ const FoodDetails = () => {
                   Category: <span>{category}</span>
                 </p>
 
-                <p className="descrption mb-5">
+                {/* <p className="descrption mb-5">
                   <h6>Description:</h6> <span>{desc}</span>
-                </p>
+                </p> */}
 
                 {/* <button onClick={addItem} className="addTOCart__btn">
                   Add to Cart
@@ -124,7 +124,7 @@ const FoodDetails = () => {
                 >
                   Review
                 </h6>
-              </div>
+              </div>  
 
               {tab === "desc" ? (
                 <div className="tab__content">

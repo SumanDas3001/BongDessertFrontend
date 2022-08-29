@@ -50,7 +50,7 @@ import product_06_image_03 from "../product18.jpg";
 const products = [
   {
     id: "01",
-    title:"cake",
+    title:"Orange Flavore Customize Cake",
     price: 400,
     image01: product_01_image_01,
     image02: product_01_image_02,

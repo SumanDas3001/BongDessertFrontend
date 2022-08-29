@@ -181,7 +181,7 @@ const Home = () => {
         <Container>
           <Row>
             <Col lg='12' className='text-center'>
-              <h2>Popular Food</h2>
+              <h2>Popular Cake</h2>
             </Col>
 
             <Col lg='12'>
