@@ -1,10 +1,10 @@
 import React from 'react'
 import { Container, Row, Col } from 'reactstrap'
 
-import categoryImg01 from '../../../assets/images/icons8-birthday-cake-96.png'
-import categoryImg02 from '../../../assets/images/icons8-cupcake-100.png'
-import categoryImg03 from '../../../assets/images/icons8-cake-100.png'
-import categoryImg04 from '../../../assets/images/mousse.png'
+import categoryImg01 from '../../../assets/images/birthday-cake.png'
+import categoryImg02 from '../../../assets/images/cupcake.png'
+import categoryImg03 from '../../../assets/images/customize_cake.png'
+import categoryImg04 from '../../../assets/images/mousse1.png'
 
 import '../../../styles/category.css'
 
@@ -37,7 +37,7 @@ const Category = () => {
           <Col lg="3" md="4" sm="6" xs="6" className="mb-4" key={index}>
             <div className="category__item d-flex align-items-center gap-3">
               <div className="category__img">
-                <img src={item.imgUrl} alt="category__item" style={{height: '100px'}} />
+                <img src={item.imgUrl} alt="category__item" />
               </div>
               <h6>{item.display}</h6>
             </div>
