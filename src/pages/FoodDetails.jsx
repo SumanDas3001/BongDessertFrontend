@@ -14,10 +14,10 @@ import "../styles/product-details.css";
 import ProductCard from "../components/UI/product-card/ProductCard";
 
 const FoodDetails = () => {
-  const [tab, setTab] = useState("desc");
-  const [enteredName, setEnteredName] = useState("");
-  const [enteredEmail, setEnteredEmail] = useState("");
-  const [reviewMsg, setReviewMsg] = useState("");
+  // const [tab, setTab] = useState("desc");
+  // const [enteredName, setEnteredName] = useState("");
+  // const [enteredEmail, setEnteredEmail] = useState("");
+  // const [reviewMsg, setReviewMsg] = useState("");
   const { id } = useParams();
   // const dispatch = useDispatch();
 
@@ -38,11 +38,11 @@ const FoodDetails = () => {
   //   );
   // };
 
-  const submitHandler = (e) => {
-    e.preventDefault();
+  // const submitHandler = (e) => {
+  //   e.preventDefault();
 
-    console.log(enteredName, enteredEmail, reviewMsg);
-  };
+  //   console.log(enteredName, enteredEmail, reviewMsg);
+  // };
 
   useEffect(() => {
     setPreviewImg(product.image01);
@@ -51,6 +51,12 @@ const FoodDetails = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [product]);
+
+  const handleClick = (url) => {
+    if (url === 'order'){
+      window.open('https://wa.me/919330349714', '_blank');
+    }
+  }
 
   return (
     <Helmet title="Product-details">
@@ -89,7 +95,7 @@ const FoodDetails = () => {
               </div>
             </Col>
 
-            <Col lg="8" md="8" mb='8'>
+            <Col lg="8" md="8" mb='8' className="mb-5">
               <div className="single__product-content">
                 <h2 className="product__title mb-3">{title}</h2>
                 <p className="product__price">
@@ -100,17 +106,21 @@ const FoodDetails = () => {
                   Category: <span>{category}</span>
                 </p>
 
-                {/* <p className="descrption mb-5">
+                <p className="descrption mb-5">
                   <h6>Description:</h6> <span>{desc}</span>
-                </p> */}
+                </p>
 
                 {/* <button onClick={addItem} className="addTOCart__btn">
                   Add to Cart
                 </button> */}
+
+                <button onClick={() => handleClick('order')} className="addTOCart__btn">
+                  Order
+                </button>
               </div>
             </Col>
 
-            <Col lg="12" md='12' sm='12' className="py-5">
+            {/* <Col lg="12" md='12' sm='12' className="py-5">
               <div className="tabs d-flex align-items-center gap-5 py-3">
                 <h6
                   className={` ${tab === "desc" ? "tab__active" : ""}`}
@@ -132,7 +142,7 @@ const FoodDetails = () => {
                 </div>
               ) : (
                 <div className="tab__form mb-3">
-                  {/* <div className="review pt-5">
+                  <div className="review pt-5">
                     <p className="user__name mb-0">Jhon Doe</p>
                     <p className="user__email">jhon1@gmail.com</p>
                     <p className="feedback__text">great product</p>
@@ -148,7 +158,7 @@ const FoodDetails = () => {
                     <p className="user__name mb-0">Jhon Doe</p>
                     <p className="user__email">jhon1@gmail.com</p>
                     <p className="feedback__text">great product</p>
-                  </div> */}
+                  </div>
                   <form className="form" onSubmit={submitHandler} >
                     <div className="form__group">
                       <input
@@ -184,7 +194,7 @@ const FoodDetails = () => {
                   </form>
                 </div>
               )}
-            </Col>
+            </Col> */}
 
             <Col lg="12" className="mb-5 mt-5">
               <h2 className="related__Product-title text-center">You might also like</h2>
