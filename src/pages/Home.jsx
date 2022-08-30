@@ -252,7 +252,7 @@ const Home = () => {
                   <ListGroupItem className="border-0 ps-0">
                     <p className=" choose__us-title d-flex align-items-center gap-2 ">
                       <i className="ri-checkbox-circle-line"></i> Fresh and tasty
-                      foods
+                      cake's
                     </p>
                     <p className="choose__us-desc">
                       Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -262,7 +262,7 @@ const Home = () => {
 
                   <ListGroupItem className="border-0 ps-0">
                     <p className="choose__us-title d-flex align-items-center gap-2 ">
-                      <i className="ri-checkbox-circle-line"></i> Quality support
+                      <i className="ri-checkbox-circle-line"></i> Custom Cakes
                     </p>
                     <p className="choose__us-desc">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
