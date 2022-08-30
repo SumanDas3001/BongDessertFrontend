@@ -27,17 +27,17 @@ import product_01_image_01 from "../product1.jpg";
 import product_01_image_02 from "../product2.jpg";
 import product_01_image_03 from "../product3.jpg";
 
-import product_02_image_01 from "../product4.jpg";
-import product_02_image_02 from "../product5.jpg";
-import product_02_image_03 from "../product6.jpg";
+import product_02_image_01 from "../cupcakes1.png";
+import product_02_image_02 from "../cupcakes2.png";
+import product_02_image_03 from "../cupcakes3.png";
 
-import product_03_image_01 from "../product7.jpg";
-import product_03_image_02 from "../product8.jpg";
-import product_03_image_03 from "../product9.jpg";
+import product_03_image_01 from "../cupcakes4.png";
+import product_03_image_02 from "../cupcakes5.png";
+import product_03_image_03 from "../cupcakes6.png";
 
-import product_04_image_01 from "../product10.jpg";
-import product_04_image_02 from "../product11.jpg";
-import product_04_image_03 from "../product12.jpg";
+import product_04_image_01 from "../cupcakes7.jpg";
+import product_04_image_02 from "../cupcakes8.jpg";
+import product_04_image_03 from "../cupcakes9.jpg";
 
 import product_05_image_01 from "../product13.jpg";
 import product_05_image_02 from "../product14.jpeg";
@@ -62,8 +62,8 @@ const products = [
 
   {
     id: "02",
-    title:"cake",
-    price: 400,
+    title:"Blueberry Pineapple Vanilla Cupcakes",
+    price: 210,
     image01: product_02_image_01,
     image02: product_02_image_02,
     image03: product_02_image_03,
@@ -74,8 +74,8 @@ const products = [
 
   {
     id: "03",
-    title:"cake",
-    price: 400,
+    title:"Set Of 6 Chocolate Choco Chips & Oreo Cup Cakes",
+    price: 210,
     image01: product_03_image_01,
     image02: product_03_image_02,
     image03: product_03_image_03,
@@ -86,8 +86,8 @@ const products = [
 
   {
     id: "04",
-    title:"cake",
-    price: 400,
+    title:"Set of Six Valentine Love Filled Chocolate Cupcakes",
+    price: 210,
     image01: product_04_image_01,
     image02: product_04_image_02,
     image03: product_04_image_03,
@@ -119,41 +119,41 @@ const products = [
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
   },
 
-  {
-    id: "07",
-    title:"cake",
-    price: 400,
-    image01: product_02_image_02,
-    image02: product_02_image_01,
-    image03: product_02_image_03,
-    category: "Cup Cakes",
+  // {
+  //   id: "07",
+  //   title:"cake",
+  //   price: 400,
+  //   image01: product_02_image_02,
+  //   image02: product_02_image_01,
+  //   image03: product_02_image_03,
+  //   category: "Cup Cakes",
 
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
-  },
+  //   desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+  // },
 
-  {
-    id: "08",
-    title:"cake",
-    price: 400,
-    image01: product_03_image_02,
-    image02: product_03_image_01,
-    image03: product_03_image_03,
-    category: "Cup Cakes",
+  // {
+  //   id: "08",
+  //   title:"cake",
+  //   price: 400,
+  //   image01: product_03_image_02,
+  //   image02: product_03_image_01,
+  //   image03: product_03_image_03,
+  //   category: "Cup Cakes",
 
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
-  },
+  //   desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+  // },
 
-  {
-    id: "09",
-    title:"cake",
-    price: 400,
-    image01: product_04_image_02,
-    image02: product_04_image_01,
-    image03: product_04_image_03,
-    category: "Cup Cakes",
+  // {
+  //   id: "09",
+  //   title:"cake",
+  //   price: 400,
+  //   image01: product_04_image_02,
+  //   image02: product_04_image_01,
+  //   image03: product_04_image_03,
+  //   category: "Cup Cakes",
 
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
-  },
+  //   desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+  // },
 
   {
     id: "10",

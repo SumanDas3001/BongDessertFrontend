@@ -116,7 +116,7 @@ const FoodDetails = () => {
                   className={` ${tab === "desc" ? "tab__active" : ""}`}
                   onClick={() => setTab("desc")}
                 >
-                  Description
+                  Product Description
                 </h6>
                 <h6
                   className={` ${tab === "rev" ? "tab__active" : ""}`}
