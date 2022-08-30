@@ -83,6 +83,12 @@ const Home = () => {
       setAllProducts(filteredProducts)
     }
   }, [category])
+
+  const handleClick = (url) => {
+    if (url === 'order'){
+      window.open('https://wa.me/919330349714', '_blank');
+    }
+  }
   
   
   return (
@@ -103,7 +109,7 @@ const Home = () => {
                 </p>
 
                 <div className="hero__btns d-flex align-items-center gap-5 mt-4">
-                  <button className="order__btn d-flex align-items-center justify-content-between">
+                  <button className="order__btn d-flex align-items-center justify-content-between" onClick={() => handleClick('order')}>
                     Order now <i className="ri-arrow-right-s-line"></i>
                   </button>
 
