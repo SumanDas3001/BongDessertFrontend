@@ -83,7 +83,7 @@ const products = [
     image01: product_image_01,
     category: "Celebration Cakes",
 
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque. ",
+    desc: "1 Pound Fresh homemade eggless cake. ",
   },
   {
     id: "02",
@@ -92,7 +92,7 @@ const products = [
     image01: product_image_02,
     category: "Celebration Cakes",
 
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque. ",
+    desc: "1 Pound Fresh homemade eggless cake. ",
   },
   {
     id: "03",
@@ -101,7 +101,7 @@ const products = [
     image01: product_image_03,
     category: "Celebration Cakes",
 
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+    desc: "1 Pound Fresh homemade eggless cake.",
   },
   {
     id: "04",
@@ -110,7 +110,7 @@ const products = [
     image01: product_image_04,
     category: "Celebration Cakes",
 
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+    desc: "1 Pound Fresh homemade eggless cake.",
   },
   {
     id: "05",
@@ -119,7 +119,7 @@ const products = [
     image01: product_image_05,
     category: "Celebration Cakes",
 
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+    desc: "1 Pound Fresh homemade eggless cake.",
   },
   {
     id: "06",
@@ -128,7 +128,7 @@ const products = [
     image01: product_image_06,
     category: "Celebration Cakes",
 
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+    desc: "1 Pound Fresh homemade eggless cake.",
   },
 
   {
@@ -138,7 +138,7 @@ const products = [
     image01: product_image_07,
     category: "Celebration Cakes",
 
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+    desc: "1 Pound Fresh homemade eggless cake.",
   },
 
   {
@@ -148,7 +148,7 @@ const products = [
     image01: product_image_08,
     category: "Celebration Cakes",
 
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+    desc: "1 Pound Fresh homemade eggless cake.",
   },
 
   {
@@ -158,7 +158,7 @@ const products = [
     image01: product_image_09,
     category: "Celebration Cakes",
 
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+    desc: "1 Pound Fresh homemade eggless cake.",
   },
 
   {
@@ -168,7 +168,7 @@ const products = [
     image01: product_image_10,
     category: "Celebration Cakes",
 
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+    desc: "1 Pound Fresh homemade eggless cake.",
   },
 
   {
@@ -178,7 +178,7 @@ const products = [
     image01: product_image_11,
     category: "Celebration Cakes",
 
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+    desc: "1 Pound Fresh homemade eggless cake.",
   },
 
   {
@@ -188,7 +188,7 @@ const products = [
     image01: product_image_12,
     category: "Celebration Cakes",
 
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+    desc: "1 Pound Fresh homemade eggless cake.",
   },
 
   {
@@ -198,7 +198,7 @@ const products = [
     image01: product_image_13,
     category: "Celebration Cakes",
 
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+    desc: "1 Pound Fresh homemade eggless cake.",
   },
   {
     id: "14",
@@ -207,7 +207,7 @@ const products = [
     image01: product_image_14,
     category: "Celebration Cakes",
 
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+    desc: "1 Pound Fresh homemade eggless cake.",
   },
   {
     id: "15",
@@ -215,7 +215,7 @@ const products = [
     price: 450,
     image01: product_image_15,
     category: "Celebration Cakes",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+    desc: "1 Pound Fresh homemade eggless cake.",
   },
   {
     id: "16",
@@ -224,7 +224,7 @@ const products = [
     image01: product_image_16,
     category: "Celebration Cakes",
 
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+    desc: "1 Pound Fresh homemade eggless cake.",
   },
   {
     id: "17",
@@ -233,7 +233,7 @@ const products = [
     image01: product_image_17,
     category: "Celebration Cakes",
 
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+    desc: "1 Pound Fresh homemade eggless cake.",
   },
   {
     id: "18",
@@ -242,7 +242,7 @@ const products = [
     image01: product_image_18,
     category: "Celebration Cakes",
 
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+    desc: "1 Pound Fresh homemade eggless cake.",
   },
   {
     id: "19",
@@ -251,7 +251,7 @@ const products = [
     image01: product_image_19,
     category: "Celebration Cakes",
 
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+    desc: "1 Pound Fresh homemade eggless cake.",
   },
   {
     id: "20",
@@ -260,7 +260,7 @@ const products = [
     image01: product_image_20,
     category: "Celebration Cakes",
 
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+    desc: "1 Pound Fresh homemade eggless cake.",
   },
   {
     id: "21",
@@ -269,7 +269,7 @@ const products = [
     image01: product_image_21,
     category: "Celebration Cakes",
 
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+    desc: "1 Pound Fresh homemade eggless cake.",
   },
   {
     id: "22",
@@ -278,16 +278,16 @@ const products = [
     image01: product_image_22,
     category: "Celebration Cakes",
 
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+    desc: "1 Pound Fresh homemade eggless cake.",
   },
   {
     id: "23",
-    title:"Rasmali Creamy Mithai Cake ",
+    title:"Rasmali Cake ",
     price: 450,
     image01: product_image_23,
     category: "Celebration Cakes",
 
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+    desc: "1 Pound Fresh homemade eggless cake.",
   },
   {
     id: "24",
@@ -296,25 +296,25 @@ const products = [
     image01: product_image_24,
     category: "Celebration Cakes",
 
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+    desc: "1 Pound Fresh homemade eggless cake.",
   },
   {
     id: "25",
-    title:"Rasmali Creamy Mithai Cake ",
+    title:"Rasmalai Pista Cake ",
     price: 450,
     image01: product_image_25,
     category: "Celebration Cakes",
 
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+    desc: "1 Pound Fresh homemade eggless cake.",
   },
   {
     id: "26",
-    title:"Orange Flavore Customize Cake",
-    price: 400,
+    title:"Rasmali Creamy Mithai Cake",
+    price: 450,
     image01: product_image_26,
     category: "Celebration Cakes",
 
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque. ",
+    desc: "1 Pound Fresh homemade eggless cake. ",
   },
 
   {
@@ -324,7 +324,7 @@ const products = [
     image01: cupcakes1,
     category: "Cup Cakes",
 
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+    desc: "1 Pound Fresh homemade eggless cake.",
   },
 
   {
@@ -334,7 +334,7 @@ const products = [
     image01: cupcakes4,
     category: "Cup Cakes",
 
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+    desc: "1 Pound Fresh homemade eggless cake.",
   },
 
   {
@@ -344,7 +344,7 @@ const products = [
     image01: cupcakes10,
     category: "Cup Cakes",
 
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+    desc: "1 Pound Fresh homemade eggless cake.",
   },
   {
     id: "30",
@@ -353,7 +353,7 @@ const products = [
     image01: cupcakes11,
     category: "Cup Cakes",
 
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+    desc: "1 Pound Fresh homemade eggless cake.",
   },
   {
     id: "31",
@@ -362,7 +362,7 @@ const products = [
     image01: cupcakes7,
     category: "Cup Cakes",
 
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+    desc: "1 Pound Fresh homemade eggless cake.",
   },
   {
     id: "32",
@@ -371,7 +371,7 @@ const products = [
     image01: cupcakes12,
     category: "Cup Cakes",
 
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+    desc: "1 Pound Fresh homemade eggless cake.",
   },
   {
     id: "33",
@@ -380,7 +380,7 @@ const products = [
     image01: cupcakes13,
     category: "Cup Cakes",
 
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+    desc: "1 Pound Fresh homemade eggless cake.",
   },
   {
     id: "34",
@@ -389,7 +389,7 @@ const products = [
     image01: cupcakes14,
     category: "Cup Cakes",
 
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+    desc: "1 Pound Fresh homemade eggless cake.",
   },
   {
     id: "35",
@@ -398,7 +398,7 @@ const products = [
     image01: cupcakes15,
     category: "Cup Cakes",
 
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+    desc: "1 Pound Fresh homemade eggless cake.",
   },
   {
     id: "36",
@@ -407,7 +407,7 @@ const products = [
     image01: cupcakes16,
     category: "Cup Cakes",
 
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+    desc: "1 Pound Fresh homemade eggless cake.",
   },
   {
     id: "37",
@@ -416,7 +416,7 @@ const products = [
     image01: cupcakes17,
     category: "Cup Cakes",
 
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+    desc: "1 Pound Fresh homemade eggless cake.",
   },
   {
     id: "38",
@@ -425,7 +425,7 @@ const products = [
     image01: cupcakes18,
     category: "Cup Cakes",
 
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+    desc: "1 Pound Fresh homemade eggless cake.",
   },
   {
     id: "39",
@@ -434,7 +434,7 @@ const products = [
     image01: cupcakes19,
     category: "Cup Cakes",
 
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+    desc: "1 Pound Fresh homemade eggless cake.",
   },
 
   {
@@ -444,7 +444,7 @@ const products = [
     image01: mousse1,
     category: "Mousse",
 
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+    desc: "1 Pound Fresh homemade eggless cake.",
   },
   {
     id: "41",
@@ -453,7 +453,7 @@ const products = [
     image01: mousse2,
     category: "Mousse",
 
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+    desc: "1 Pound Fresh homemade eggless cake.",
   },
   {
     id: "42",
@@ -462,7 +462,7 @@ const products = [
     image01: mousse3,
     category: "Mousse",
 
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+    desc: "1 Pound Fresh homemade eggless cake.",
   },
   {
     id: "43",
@@ -471,160 +471,160 @@ const products = [
     image01: mousse4,
     category: "Mousse",
 
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+    desc: "1 Pound Fresh homemade eggless cake.",
   },
   {
     id: "44",
-    title:"Set of Six Valentine Love Filled Chocolate Cupcakes",
-    price: 210,
+    title:"Chocolate Cake",
+    price: 350,
     image01: celebration_cake6,
     category: "Celebration Cakes",
 
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+    desc: "1 Pound Fresh homemade eggless cake.",
   },
   {
     id: "45",
-    title:"Set of Six Valentine Love Filled Chocolate Cupcakes",
-    price: 210,
+    title:"Panipuri Cake",
+    price: 350,
     image01: celebration_cake7,
     category: "Celebration Cakes",
 
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+    desc: "1 Pound Fresh homemade eggless cake.",
   },
   {
     id: "46",
-    title:"Set of Six Valentine Love Filled Chocolate Cupcakes",
-    price: 210,
+    title:"Vanila Cake",
+    price: 300,
     image01: celebration_cake8,
     category: "Celebration Cakes",
 
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+    desc: "1 Pound Fresh homemade eggless cake. Any types/any flavor customized are available",
   },
   {
     id: "47",
-    title:"Set of Six Valentine Love Filled Chocolate Cupcakes",
-    price: 210,
+    title:"Chocolate Cookie Cake With Whisky Bottle",
+    price: 650,
     image01: celebration_cake9,
     category: "Celebration Cakes",
 
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+    desc: "1 Pound Fresh homemade eggless cake. Whisky bottle price not included",
   },
   {
     id: "48",
-    title:"Set of Six Valentine Love Filled Chocolate Cupcakes",
-    price: 210,
+    title:"Chocolate Overloded Cake🍫🍫",
+    price: 450,
     image01: celebration_cake10,
     category: "Celebration Cakes",
 
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+    desc: "1 Pound Fresh homemade eggless cake.",
   },
   {
     id: "49",
-    title:"Set of Six Valentine Love Filled Chocolate Cupcakes",
-    price: 210,
+    title:"Customize cake, Inside Chocolate Flavour",
+    price: 350,
     image01: celebration_cake11,
     category: "Celebration Cakes",
 
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+    desc: "1 Pound Fresh homemade eggless cake.",
   },
   {
     id: "50",
-    title:"Set of Six Valentine Love Filled Chocolate Cupcakes",
-    price: 210,
+    title:"2 Tier Butterscotch and Vanilla Cake",
+    price: 1200,
     image01: celebration_cake12,
     category: "Celebration Cakes",
 
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+    desc: "2 Tier Fresh Butterscotch and Vanilla Cake.",
   },
   {
     id: "51",
-    title:"Set of Six Valentine Love Filled Chocolate Cupcakes",
-    price: 210,
+    title:"Gravity Cake",
+    price: 400,
     image01: celebration_cake13,
     category: "Celebration Cakes",
 
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+    desc: "1 Pound Fresh homemade eggless cake.",
   },
   {
     id: "52",
-    title:"Set of Six Valentine Love Filled Chocolate Cupcakes",
-    price: 210,
+    title:"Inside Chocolate Strawberry Cake",
+    price: 350,
     image01: celebration_cake14,
     category: "Celebration Cakes",
 
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+    desc: "1 Pound Fresh homemade eggless cake.",
   },
   {
     id: "53",
-    title:"Set of Six Valentine Love Filled Chocolate Cupcakes",
-    price: 210,
+    title:"Red Velvet Photo Cake",
+    price: 650,
     image01: celebration_cake15,
     category: "Celebration Cakes",
 
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+    desc: "1 Pound Fresh homemade eggless cake.",
   },
   {
     id: "54",
-    title:"Set of Six Valentine Love Filled Chocolate Cupcakes",
-    price: 210,
+    title:"Independence Day Theme Cake",
+    price: 350,
     image01: celebration_cake16,
     category: "Celebration Cakes",
 
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+    desc: "1 Pound Fresh homemade eggless cake. Flavour:- Butterscotch",
   },
   {
     id: "55",
-    title:"Set of Six Valentine Love Filled Chocolate Cupcakes",
-    price: 210,
+    title:"Inside Chocolate Cake",
+    price: 350,
     image01: celebration_cake17,
     category: "Celebration Cakes",
 
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+    desc: "1 Pound Fresh homemade eggless cake.",
   },
   {
     id: "56",
-    title:"Set of Six Valentine Love Filled Chocolate Cupcakes",
-    price: 210,
+    title:"Mango Flavour Cake",
+    price: 350,
     image01: celebration_cake18,
     category: "Celebration Cakes",
 
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+    desc: "1 Pound Fresh homemade eggless cake.",
   },
   {
     id: "57",
-    title:"Set of Six Valentine Love Filled Chocolate Cupcakes",
-    price: 210,
+    title:"Butterscotch Cake",
+    price: 350,
     image01: celebration_cake19,
     category: "Celebration Cakes",
 
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+    desc: "1 Pound Fresh homemade eggless cake, Flavour:- Butterscotch",
   },
   {
     id: "58",
-    title:"Set of Six Valentine Love Filled Chocolate Cupcakes",
-    price: 210,
+    title:"Shri krishna janmashtami cake",
+    price: 350,
     image01: celebration_cake20,
     category: "Celebration Cakes",
 
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+    desc: "1 Pound Fresh homemade eggless cake.",
   },
   {
     id: "59",
-    title:"Set of Six Valentine Love Filled Chocolate Cupcakes",
-    price: 210,
+    title:"Choco oreo cake",
+    price: 650,
     image01: celebration_cake21,
     category: "Celebration Cakes",
 
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+    desc: "1 Pound Fresh homemade eggless cake.",
   },
   {
     id: "60",
-    title:"Set of Six Valentine Love Filled Chocolate Cupcakes",
-    price: 210,
+    title:"Chocolate cake🍫🎂",
+    price: 350,
     image01: celebration_cake22,
     category: "Celebration Cakes",
 
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+    desc: "1 Pound, Fresh homemade eggless cake.",
   },
 ];
 

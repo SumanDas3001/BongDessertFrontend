@@ -318,11 +318,11 @@ const Home = () => {
                 <h2 className="testimonial__title text-center mb-4">
                   What our <span>customers</span> are saying
                 </h2>
-                <p className="testimonial__desc text-center">
+                {/* <p className="testimonial__desc text-center">
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                   Distinctio quasi qui minus quos sit perspiciatis inventore
                   quis provident placeat fugiat!
-                </p>
+                </p> */}
 
                 <TestimonialSlider />
               </div>
