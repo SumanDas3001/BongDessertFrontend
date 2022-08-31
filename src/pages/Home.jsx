@@ -46,7 +46,7 @@ const featureData = [
 
 const Home = () => {
 
-  const [category, setCategory] = useState("ALL");
+  const [category, setCategory] = useState("CELEBRATION_CAKES");
   const [allProducts, setAllProducts] = useState(products);
 
   const [popularCake, setPopularCake]  = useState([]);
@@ -58,9 +58,9 @@ const Home = () => {
   }, []);
 
   useEffect(() => {
-    if(category === 'ALL'){
-      setAllProducts(products)
-    }
+    // if(category === 'ALL'){
+    //   setAllProducts(products)
+    // }
 
     if(category === 'CELEBRATION_CAKES'){
       const filteredProducts = products.filter(
@@ -192,13 +192,13 @@ const Home = () => {
 
             <Col lg='12'>
               <div className='food__category d-flex align-items-center justify-content-center gap-4'>
-                <button className={`all__btn  ${
+                {/* <button className={`all__btn  ${
                     category === "ALL" ? "foodBtnActive" : ""
                   } `}
                   onClick={() => setCategory("ALL")}
                 >
                   All
-                </button>
+                </button> */}
                 <button className={`d-flex align-items-center gap-2 ${
                     category === "CELEBRATION_CAKES" ? "foodBtnActive" : ""
                   } `}

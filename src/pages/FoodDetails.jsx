@@ -58,6 +58,10 @@ const FoodDetails = () => {
     }
   }
 
+  // const openWhatsApp = () => {  
+  //   window.open(`https://web.whatsapp.com/send?text=${desc}`);  
+  // }  
+
   return (
     <Helmet title="Product-details">
       <CommonSection title={title} />
@@ -65,7 +69,7 @@ const FoodDetails = () => {
       <section>
         <Container>
           <Row>
-            <Col lg="2" md="2">
+            {/* <Col lg="2" md="2">
               <div className="product__images ">
                 <div
                   className="img__item mb-3"
@@ -87,7 +91,7 @@ const FoodDetails = () => {
                   <img src={product.image03} alt="" className="w-50" />
                 </div>
               </div>
-            </Col>
+            </Col> */}
 
             <Col lg="4" md="4">
               <div className="product__main-img">
@@ -95,7 +99,7 @@ const FoodDetails = () => {
               </div>
             </Col>
 
-            <Col lg="6" md="6" mb='6' className="mb-5">
+            <Col lg="8" md="8" mb='8' className="mb-5">
               <div className="single__product-content">
                 <h2 className="product__title mb-3">{title}</h2>
                 <p className="product__price">
@@ -117,6 +121,15 @@ const FoodDetails = () => {
                 <button onClick={() => handleClick('order')} className="addTOCart__btn">
                   Order
                 </button>
+
+
+                {/* <img src= "https://image.freepik.com/free-vector/whatsapp-icon-design_23-2147900927.jpg" onClick={openWhatsApp} />   */}
+
+                {/* <a 
+                  href={`https://web.whatsapp.com/send?text=${desc}`}
+                  rel="nofollow noopener" target="_blank"
+                  className="share-icon"><img src={`${previewImg}`} style={{height:'36px'}}/>Share via Whatsapp
+                </a> */}
               </div>
             </Col>
 
