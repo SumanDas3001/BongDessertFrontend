@@ -19,8 +19,8 @@ import product_image_16 from "../product16.jpg";
 import product_image_17 from "../product17.jpg";
 import product_image_18 from "../celebration_cake1.png";
 import product_image_19 from "../celebration_cake2.png";
-import product_image_20 from "../celebration_cake3.png";
-import product_image_21 from "../celebration_cake4.png";
+// import product_image_20 from "../celebration_cake3.png";
+// import product_image_21 from "../celebration_cake4.png";
 import product_image_22 from "../celebration_cake5.png";
 import product_image_23 from "../product18.jpg";
 import product_image_24 from "../Rasmalai-cake.jpg";
@@ -79,7 +79,7 @@ const products = [
   {
     id: "01",
     title:"Orange Flavore Customize Cake",
-    price: 400,
+    price: 350,
     image01: product_image_01,
     category: "Celebration Cakes",
 
@@ -87,17 +87,17 @@ const products = [
   },
   {
     id: "02",
-    title:"Orange Flavore Customize Cake",
-    price: 400,
+    title:"Chocolate Cake",
+    price: 350,
     image01: product_image_02,
     category: "Celebration Cakes",
 
-    desc: "1 Pound Fresh homemade eggless cake. ",
+    desc: "1 Pound Fresh homemade eggless cake.",
   },
   {
     id: "03",
-    title:"cake",
-    price: 400,
+    title:"Butterscotch Basket Cake",
+    price: 350,
     image01: product_image_03,
     category: "Celebration Cakes",
 
@@ -105,16 +105,16 @@ const products = [
   },
   {
     id: "04",
-    title:"cake",
-    price: 400,
+    title:"Chocolate With Whisky Bottle",
+    price: 650,
     image01: product_image_04,
     category: "Celebration Cakes",
 
-    desc: "1 Pound Fresh homemade eggless cake.",
+    desc: "1 Pound Fresh homemade eggless cake. Whisky bottle price not included",
   },
   {
     id: "05",
-    title:"cake",
+    title:"Chocolate Cake with Strawberry",
     price: 400,
     image01: product_image_05,
     category: "Celebration Cakes",
@@ -133,7 +133,7 @@ const products = [
 
   {
     id: "07",
-    title:"cake",
+    title:"Doll Cake",
     price: 400,
     image01: product_image_07,
     category: "Celebration Cakes",
@@ -143,8 +143,8 @@ const products = [
 
   {
     id: "08",
-    title:"cake",
-    price: 400,
+    title:"Customize cake inside chocolate",
+    price: 350,
     image01: product_image_08,
     category: "Celebration Cakes",
 
@@ -153,8 +153,8 @@ const products = [
 
   {
     id: "09",
-    title:"cake",
-    price: 400,
+    title:"Butterscotch cake",
+    price: 350,
     image01: product_image_09,
     category: "Celebration Cakes",
 
@@ -163,8 +163,8 @@ const products = [
 
   {
     id: "10",
-    title:"cake",
-    price: 400,
+    title:"Butterscotch Basket Cake",
+    price: 350,
     image01: product_image_10,
     category: "Celebration Cakes",
 
@@ -173,7 +173,7 @@ const products = [
 
   {
     id: "11",
-    title:"Red Velvet Cake ",
+    title:"Gravity Cake",
     price: 400,
     image01: product_image_11,
     category: "Celebration Cakes",
@@ -183,8 +183,8 @@ const products = [
 
   {
     id: "12",
-    title:"Jungle Theme Cake ",
-    price: 400,
+    title:"Heart shape vanilla cake ",
+    price: 350,
     image01: product_image_12,
     category: "Celebration Cakes",
 
@@ -193,17 +193,17 @@ const products = [
 
   {
     id: "13",
-    title:"Rasmalai Cake ",
+    title:"Butterscotch Cake ",
     price: 450,
     image01: product_image_13,
     category: "Celebration Cakes",
 
-    desc: "1 Pound Fresh homemade eggless cake.",
+    desc: "1 Pound Fresh homemade eggless cake. Any types/flavour customized cakes are available",
   },
   {
     id: "14",
-    title:"Rasmalai Cake ",
-    price: 450,
+    title:"Photo Cake ",
+    price: 550,
     image01: product_image_14,
     category: "Celebration Cakes",
 
@@ -211,25 +211,25 @@ const products = [
   },
   {
     id: "15",
-    title:"Rasmalai Pista Cake ",
-    price: 450,
+    title:"Black forest cake ",
+    price: 400,
     image01: product_image_15,
     category: "Celebration Cakes",
     desc: "1 Pound Fresh homemade eggless cake.",
   },
   {
     id: "16",
-    title:"Rasmali Creamy Mithai Cake ",
+    title:"Red Velvet Cake",
     price: 450,
     image01: product_image_16,
     category: "Celebration Cakes",
 
-    desc: "1 Pound Fresh homemade eggless cake.",
+    desc: "1 Pound Heart Shape Red Velvet Fresh homemade eggless cake.",
   },
   {
     id: "17",
-    title:"Rasmali Creamy Mithai Cake ",
-    price: 450,
+    title:"Jungle Theme Cake",
+    price: 600,
     image01: product_image_17,
     category: "Celebration Cakes",
 
@@ -237,44 +237,26 @@ const products = [
   },
   {
     id: "18",
-    title:"Rasmali Creamy Mithai Cake ",
-    price: 450,
+    title:"Customize Strawberry Cake",
+    price: 600,
     image01: product_image_18,
     category: "Celebration Cakes",
 
-    desc: "1 Pound Fresh homemade eggless cake.",
+    desc: "1.5 Pound Fresh homemade eggless cake.",
   },
   {
     id: "19",
-    title:"Rasmali Creamy Mithai Cake ",
-    price: 450,
+    title:"Customize Anniversary Cake ",
+    price: 600,
     image01: product_image_19,
     category: "Celebration Cakes",
 
-    desc: "1 Pound Fresh homemade eggless cake.",
-  },
-  {
-    id: "20",
-    title:"Rasmali Creamy Mithai Cake ",
-    price: 450,
-    image01: product_image_20,
-    category: "Celebration Cakes",
-
-    desc: "1 Pound Fresh homemade eggless cake.",
-  },
-  {
-    id: "21",
-    title:"Rasmali Creamy Mithai Cake ",
-    price: 450,
-    image01: product_image_21,
-    category: "Celebration Cakes",
-
-    desc: "1 Pound Fresh homemade eggless cake.",
+    desc: "1.5 Pound Fresh homemade eggless cake.",
   },
   {
     id: "22",
-    title:"Rasmali Creamy Mithai Cake ",
-    price: 450,
+    title:"2 Tier Birthday cake",
+    price: 1500,
     image01: product_image_22,
     category: "Celebration Cakes",
 
@@ -439,8 +421,8 @@ const products = [
 
   {
     id: "40",
-    title:"Set of Six Valentine Love Filled Chocolate Cupcakes",
-    price: 210,
+    title:"Customize Glass/Mouse cake",
+    price: 45,
     image01: mousse1,
     category: "Mousse",
 
@@ -448,17 +430,17 @@ const products = [
   },
   {
     id: "41",
-    title:"Set of Six Valentine Love Filled Chocolate Cupcakes",
-    price: 210,
+    title:"Chocolate Glass/Mouse cake",
+    price: 45,
     image01: mousse2,
     category: "Mousse",
 
-    desc: "1 Pound Fresh homemade eggless cake.",
+    desc: "Customize Chocolate Glass/Mouse cake, Rs 45 each.",
   },
   {
     id: "42",
-    title:"Set of Six Valentine Love Filled Chocolate Cupcakes",
-    price: 210,
+    title:"Mousse. cherry, chocolate, orange🍊 Flavour",
+    price: 45,
     image01: mousse3,
     category: "Mousse",
 
@@ -466,12 +448,12 @@ const products = [
   },
   {
     id: "43",
-    title:"Set of Six Valentine Love Filled Chocolate Cupcakes",
-    price: 210,
+    title:"Mousse. Butterscotch🥞 chocolate🍫, strawberry🍓, Pineapple🍍, orange🍊 Flavour",
+    price: 45,
     image01: mousse4,
     category: "Mousse",
 
-    desc: "1 Pound Fresh homemade eggless cake.",
+    desc: "Customize Glass/Mouse cake, Rs 45 each.",
   },
   {
     id: "44",

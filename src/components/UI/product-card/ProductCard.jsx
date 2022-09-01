@@ -23,6 +23,12 @@ const ProductCard = (props) => {
   //   );
   // };
 
+  const handleClick = (url) => {
+    if (url === 'order'){
+      window.open('https://wa.me/919330349714', '_blank');
+    }
+  }
+
   return (
     <div className='product__item'>
       <div className='product__img'>
@@ -32,7 +38,9 @@ const ProductCard = (props) => {
         <h5><Link to={`/foods/${id}`}>{title}</Link></h5>
         <div>
           <span className='product__price'>Rs: {price}</span><br/>
-          {/* <button className='addTOCart__btn' onClick={addToCart}>Add to cart</button> */}
+          <button onClick={() => handleClick('order')} className="addTOCart__btn">
+            Order Now
+          </button>
         </div>
       </div>
     </div>

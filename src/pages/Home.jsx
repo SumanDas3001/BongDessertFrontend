@@ -20,7 +20,8 @@ import foodCategoryImg02 from "../assets/images/cupcake.png";
 import foodCategoryImg03 from "../assets/images/mousse.png";
 
 import ProductCard from "../components/UI/product-card/ProductCard.jsx";
-import whyImg from "../assets/images/location.png";
+import whyImg from "../assets/images/profile_picture.jpg";
+
 // import networkImg from "../assets/images/network.png";
 import TestimonialSlider from "../components/UI/slider/TestimonialSlider.jsx";
 
@@ -268,7 +269,7 @@ const Home = () => {
 
                   <ListGroupItem className="border-0 ps-0">
                     <p className="choose__us-title d-flex align-items-center gap-2 ">
-                      <i className="ri-checkbox-circle-line"></i> Custom Cakes
+                      <i className="ri-checkbox-circle-line"></i> Custom cake
                     </p>
                     <p className="choose__us-desc">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -276,6 +277,16 @@ const Home = () => {
                     </p>
                   </ListGroupItem>
 
+                  <ListGroupItem className="border-0 ps-0">
+                    <p className="choose__us-title d-flex align-items-center gap-2 ">
+                      <i className="ri-checkbox-circle-line"></i>Reasonable price{" "}
+                    </p>
+                    <p className="choose__us-desc">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Qui, earum.
+                    </p>
+                  </ListGroupItem>
+                  
                   <ListGroupItem className="border-0 ps-0">
                     <p className="choose__us-title d-flex align-items-center gap-2 ">
                       <i className="ri-checkbox-circle-line"></i>Order from any
