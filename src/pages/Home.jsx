@@ -30,7 +30,7 @@ const featureData = [
   {
     title: "Quick Delivery",
     imgUrl: featureImg01,
-    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, doloremque.",
+    desc: "Nothing can slow us down.",
   },
 
   {
@@ -41,7 +41,7 @@ const featureData = [
   {
     title: "Easy Pick Up",
     imgUrl: featureImg03,
-    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, doloremque.",
+    desc: "The Bong Dessert will bring it to your doorstep with pull me up cake delivery",
   },
 ];
 
@@ -158,13 +158,12 @@ const Home = () => {
                 we will <span>take care</span>
               </h2>
               <p className="mb-1 mt-4 feature__text">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor,
-                officiis?
+                Birthday Cakes - Wedding Cakes OR Just a simple Cake | Gift cakes Home Delivery to your Place | Same day Delivery | Schedule your Cake Delivery | ORDER NOW!.
               </p>
-              <p className="feature__text">
+              {/* <p className="feature__text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Aperiam, eius.{" "}
-              </p>
+              </p> */}
             </Col>
 
             {featureData.map((item, index) => (
@@ -176,7 +175,7 @@ const Home = () => {
                     className='w-25 mb-3'
                   />
                   <h5 className='fw-bold mb-3'>{item.title}</h5>
-                  <p>{item.desc}</p>
+                  {/* <p>{item.desc}</p> */}
                 </div>
               </Col>
             ))}
@@ -262,8 +261,7 @@ const Home = () => {
                       cake's
                     </p>
                     <p className="choose__us-desc">
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                      Quia, voluptatibus.
+                      Cakes available in our bakery are always fresh, soft, moist, mushy, and puffy in texture. We have delicious cakes to brighten up your every events.
                     </p>
                   </ListGroupItem>
 
@@ -272,8 +270,7 @@ const Home = () => {
                       <i className="ri-checkbox-circle-line"></i> Custom cake
                     </p>
                     <p className="choose__us-desc">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Qui, earum.
+                      The Bong Dessert offers customized designer cakes for birthdays, anniversaries, parties, meetups, weddings and every event or ocassions.
                     </p>
                   </ListGroupItem>
 
@@ -282,8 +279,7 @@ const Home = () => {
                       <i className="ri-checkbox-circle-line"></i>Reasonable price{" "}
                     </p>
                     <p className="choose__us-desc">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Qui, earum.
+                      Not only are we best at what we do, but we also offer cakes at relatively affordable prices along with same-day cake delivery options.
                     </p>
                   </ListGroupItem>
                   
@@ -293,8 +289,7 @@ const Home = () => {
                       location{" "}
                     </p>
                     <p className="choose__us-desc">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Qui, earum.
+                      Looking for the best online cake order delivery service? Look no further! Order from The Bong Dessert.
                     </p>
                   </ListGroupItem>
                 </ListGroup>
