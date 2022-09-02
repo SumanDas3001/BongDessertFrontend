@@ -1,75 +1,83 @@
 // celebration cake
 
-import product_image_01 from "../product1.jpg";
-import product_image_02 from "../product2.jpg";
-import product_image_03 from "../product3.jpg";
-import product_image_04 from "../product4.jpg";
-import product_image_05 from "../product5.jpg";
-import product_image_06 from "../product6.jpg";
-import product_image_07 from "../product7.jpg";
-import product_image_08 from "../product8.jpg";
-import product_image_09 from "../product9.jpg";
-import product_image_10 from "../product10.jpg";
-import product_image_11 from "../product11.jpg";
-import product_image_12 from "../product12.jpg";
-import product_image_13 from "../product13.jpg";
-import product_image_14 from "../product14.jpeg";
-import product_image_15 from "../product15.jpg";
-import product_image_16 from "../product16.jpg";
-import product_image_17 from "../product17.jpg";
-import product_image_18 from "../celebration_cake1.png";
-import product_image_19 from "../celebration_cake2.png";
-// import product_image_20 from "../celebration_cake3.png";
-// import product_image_21 from "../celebration_cake4.png";
-import product_image_22 from "../celebration_cake5.png";
-import product_image_23 from "../product18.jpg";
-import product_image_24 from "../Rasmalai-cake.jpg";
-import product_image_25 from "../rasmalai-pista-cakeone-pound.jpg";
-import product_image_26 from "../rasmali-creamy-mithai-cakeone-pound.jpg";
+import product_image_01 from "../productImages/product1.jpg";
+import product_image_02 from "../productImages/product2.jpg";
+import product_image_03 from "../productImages/product3.jpg";
+import product_image_04 from "../productImages/product4.jpg";
+import product_image_05 from "../productImages/product5.jpg";
+import product_image_06 from "../productImages/product6.jpg";
+import product_image_07 from "../productImages/product7.jpg";
+import product_image_08 from "../productImages/product8.jpg";
+import product_image_09 from "../productImages/product9.jpg";
+import product_image_10 from "../productImages/product10.jpg";
+import product_image_11 from "../productImages/product11.jpg";
+import product_image_12 from "../productImages/product12.jpg";
+import product_image_13 from "../productImages/product13.jpg";
+import product_image_14 from "../productImages/product14.jpeg";
+import product_image_15 from "../productImages/product15.jpg";
+import product_image_16 from "../productImages/product16.jpg";
+import product_image_17 from "../productImages/product17.jpg";
+import product_image_18 from "../productImages/celebration_cake1.png";
+import product_image_19 from "../productImages/celebration_cake2.png";
+// import product_image_20 from "../productImages/celebration_cake3.png";
+// import product_image_21 from "../productImages/celebration_cake4.png";
+import product_image_22 from "../productImages/celebration_cake5.png";
+import product_image_23 from "../productImages/product18.jpg";
+import product_image_24 from "../productImages/Rasmalai-cake.jpg";
+import product_image_25 from "../productImages/rasmalai-pista-cakeone-pound.jpg";
+import product_image_26 from "../productImages/rasmali-creamy-mithai-cakeone-pound.jpg";
 
 
 // cupcakes
 
-import cupcakes1 from "../cupcakes1.png";
-import cupcakes4 from "../cupcakes4.png";
-import cupcakes7 from "../cupcakes7.jpg";
-import cupcakes10 from "../cupcakes10.jpg";
-import cupcakes11 from "../cupcakes11.jpg";
-import cupcakes12 from "../cupcakes12.jpg";
-import cupcakes13 from "../cupcakes13.jpg";
-import cupcakes14 from "../cupcakes14.jpg";
-import cupcakes15 from "../cupcakes15.jpg";
-import cupcakes16 from "../cupcakes16.jpg";
-import cupcakes17 from "../cupcakes17.jpg";
-import cupcakes18 from "../cupcakes18.jpg";
-import cupcakes19 from "../cupcakes19.jpg";
+import cupcakes1 from "../productImages/cupcakes1.png";
+import cupcakes4 from "../productImages/cupcakes4.png";
+import cupcakes7 from "../productImages/cupcakes7.jpg";
+import cupcakes10 from "../productImages/cupcakes10.jpg";
+import cupcakes11 from "../productImages/cupcakes11.jpg";
+import cupcakes12 from "../productImages/cupcakes12.jpg";
+import cupcakes13 from "../productImages/cupcakes13.jpg";
+// import cupcakes14 from "../productImages/cupcakes14.jpg";
+// import cupcakes15 from "../productImages/cupcakes15.jpg";
+// import cupcakes16 from "../productImages/cupcakes16.jpg";
+import cupcakes17 from "../productImages/cupcakes17.jpg";
+import cupcakes18 from "../productImages/cupcakes18.jpg";
+import cupcakes19 from "../productImages/cupcakes19.jpg";
 
 // Mousse
 
-import mousse1 from "../mousse1.jpg";
-import mousse2 from "../mousse2.jpg";
-import mousse3 from "../mousse3.jpg";
-import mousse4 from "../mousse4.jpg";
+import mousse1 from "../productImages/mousse1.jpg";
+import mousse2 from "../productImages/mousse2.jpg";
+import mousse3 from "../productImages/mousse3.jpg";
+import mousse4 from "../productImages/mousse4.jpg";
 
 // Clebration Cake
 
-import celebration_cake6 from "../celebration_cake6.jpg";
-import celebration_cake7 from "../celebration_cake7.jpg";
-import celebration_cake8 from "../celebration_cake8.jpg";
-import celebration_cake9 from "../celebration_cake9.jpg";
-import celebration_cake10 from "../celebration_cake10.jpg";
-import celebration_cake11 from "../celebration_cake11.jpg";
-import celebration_cake12 from "../celebration_cake12.jpg";
-import celebration_cake13 from "../celebration_cake13.jpg";
-import celebration_cake14 from "../celebration_cake14.jpg";
-import celebration_cake15 from "../celebration_cake15.jpg";
-import celebration_cake16 from "../celebration_cake16.jpg";
-import celebration_cake17 from "../celebration_cake17.jpg";
-import celebration_cake18 from "../celebration_cake18.jpg";
-import celebration_cake19 from "../celebration_cake19.jpg";
-import celebration_cake20 from "../celebration_cake20.jpg";
-import celebration_cake21 from "../celebration_cake21.jpg";
-import celebration_cake22 from "../celebration_cake22.jpg";
+import celebration_cake6 from "../productImages/celebration_cake6.jpg";
+import celebration_cake7 from "../productImages/celebration_cake7.jpg";
+import celebration_cake8 from "../productImages/celebration_cake8.jpg";
+import celebration_cake9 from "../productImages/celebration_cake9.jpg";
+import celebration_cake10 from "../productImages/celebration_cake10.jpg";
+import celebration_cake11 from "../productImages/celebration_cake11.jpg";
+import celebration_cake12 from "../productImages/celebration_cake12.jpg";
+import celebration_cake13 from "../productImages/celebration_cake13.jpg";
+import celebration_cake14 from "../productImages/celebration_cake14.jpg";
+import celebration_cake15 from "../productImages/celebration_cake15.jpg";
+import celebration_cake16 from "../productImages/celebration_cake16.jpg";
+import celebration_cake17 from "../productImages/celebration_cake17.jpg";
+import celebration_cake18 from "../productImages/celebration_cake18.jpg";
+import celebration_cake19 from "../productImages/celebration_cake19.jpg";
+import celebration_cake20 from "../productImages/celebration_cake20.jpg";
+import celebration_cake21 from "../productImages/celebration_cake21.jpg";
+import celebration_cake22 from "../productImages/celebration_cake22.jpg";
+
+import butterscotch_cake from "../productImages/butterscotch-cake.png";
+import Bheem_Photo_cake from "../productImages/Bheem_Photo_cake.png";
+import chocolatey_red_velvet_twist from "../productImages/chocolatey-red-velvet-twist.png";
+import Coffee_Mania from "../productImages/Coffee-Mania.png";
+import Premium_Butterscotch_Cake from "../productImages/Premium-Butterscotch-Cake.png";
+import Mickey_Face_Cake from "../productImages/Mickey-Face-Cake.png";
+import udta_robot_cake from "../productImages/udta-robot-cake.png";
 
 
 
@@ -106,7 +114,7 @@ const products = [
   {
     id: "04",
     title:"Chocolate With Whisky Bottle",
-    price: 650,
+    price: 600,
     image01: product_image_04,
     category: "Celebration Cakes",
 
@@ -301,7 +309,7 @@ const products = [
 
   {
     id: "27",
-    title:"Blueberry Pineapple Vanilla Cupcakes",
+    title:"Set of Six cupcakes Blueberry Pineapple Vanilla Cupcakes",
     price: 210,
     image01: cupcakes1,
     category: "Cup Cakes",
@@ -321,7 +329,7 @@ const products = [
 
   {
     id: "29",
-    title:"Set of Six Valentine Love Filled Chocolate Cupcakes",
+    title:"Set of Six customize designed Cupcakes with different flavour",
     price: 210,
     image01: cupcakes10,
     category: "Cup Cakes",
@@ -330,8 +338,8 @@ const products = [
   },
   {
     id: "30",
-    title:"Set of Six Valentine Love Filled Chocolate Cupcakes",
-    price: 210,
+    title:"Set of four Cupcakes",
+    price: 140,
     image01: cupcakes11,
     category: "Cup Cakes",
 
@@ -348,8 +356,8 @@ const products = [
   },
   {
     id: "32",
-    title:"Set of Six Valentine Love Filled Chocolate Cupcakes",
-    price: 210,
+    title:"Set of three Cupcakes with different design and flavour",
+    price: 105,
     image01: cupcakes12,
     category: "Cup Cakes",
 
@@ -357,44 +365,44 @@ const products = [
   },
   {
     id: "33",
-    title:"Set of Six Valentine Love Filled Chocolate Cupcakes",
-    price: 210,
+    title:"Set of three Cupcakes with different design and flavour",
+    price: 105,
     image01: cupcakes13,
     category: "Cup Cakes",
 
     desc: "1 Pound Fresh homemade eggless cake.",
   },
-  {
-    id: "34",
-    title:"Set of Six Valentine Love Filled Chocolate Cupcakes",
-    price: 210,
-    image01: cupcakes14,
-    category: "Cup Cakes",
+  // {
+  //   id: "34",
+  //   title:"Set of Six Valentine Love Filled Chocolate Cupcakes",
+  //   price: 210,
+  //   image01: cupcakes14,
+  //   category: "Cup Cakes",
 
-    desc: "1 Pound Fresh homemade eggless cake.",
-  },
-  {
-    id: "35",
-    title:"Set of Six Valentine Love Filled Chocolate Cupcakes",
-    price: 210,
-    image01: cupcakes15,
-    category: "Cup Cakes",
+  //   desc: "1 Pound Fresh homemade eggless cake.",
+  // },
+  // {
+  //   id: "35",
+  //   title:"Set of Six Valentine Love Filled Chocolate Cupcakes",
+  //   price: 210,
+  //   image01: cupcakes15,
+  //   category: "Cup Cakes",
 
-    desc: "1 Pound Fresh homemade eggless cake.",
-  },
-  {
-    id: "36",
-    title:"Set of Six Valentine Love Filled Chocolate Cupcakes",
-    price: 210,
-    image01: cupcakes16,
-    category: "Cup Cakes",
+  //   desc: "1 Pound Fresh homemade eggless cake.",
+  // },
+  // {
+  //   id: "36",
+  //   title:"Set of Six Valentine Love Filled Chocolate Cupcakes",
+  //   price: 210,
+  //   image01: cupcakes16,
+  //   category: "Cup Cakes",
 
-    desc: "1 Pound Fresh homemade eggless cake.",
-  },
+  //   desc: "1 Pound Fresh homemade eggless cake.",
+  // },
   {
     id: "37",
-    title:"Set of Six Valentine Love Filled Chocolate Cupcakes",
-    price: 210,
+    title:"Set of Five Cupcakes with Rasmali, Chocolate and Butterscotch flavour",
+    price: 190,
     image01: cupcakes17,
     category: "Cup Cakes",
 
@@ -402,8 +410,8 @@ const products = [
   },
   {
     id: "38",
-    title:"Set of Six Valentine Love Filled Chocolate Cupcakes",
-    price: 210,
+    title:"Set of Five Cupcakes. Customize design and differnt flavour",
+    price: 175,
     image01: cupcakes18,
     category: "Cup Cakes",
 
@@ -411,8 +419,8 @@ const products = [
   },
   {
     id: "39",
-    title:"Set of Six Valentine Love Filled Chocolate Cupcakes",
-    price: 210,
+    title:"Set of Five Cupcakes with differnt flavour",
+    price: 175,
     image01: cupcakes19,
     category: "Cup Cakes",
 
@@ -485,7 +493,7 @@ const products = [
   {
     id: "47",
     title:"Chocolate Cookie Cake With Whisky Bottle",
-    price: 650,
+    price: 600,
     image01: celebration_cake9,
     category: "Celebration Cakes",
 
@@ -601,9 +609,72 @@ const products = [
   },
   {
     id: "60",
+    title:"butterscotch cake",
+    price: 350,
+    image01: butterscotch_cake,
+    category: "Celebration Cakes",
+
+    desc: "1 Pound, Fresh homemade eggless cake.",
+  },
+  {
+    id: "61",
     title:"Chocolate cake🍫🎂",
     price: 350,
     image01: celebration_cake22,
+    category: "Celebration Cakes",
+
+    desc: "1 Pound, Fresh homemade eggless cake.",
+  },
+  {
+    id: "62",
+    title:"chocolatey red velvet twist cake",
+    price: 500,
+    image01: chocolatey_red_velvet_twist,
+    category: "Celebration Cakes",
+
+    desc: "1 Pound, Fresh homemade eggless cake.",
+  },
+  {
+    id: "63",
+    title:"Chota Bheem Photo cake",
+    price: 500,
+    image01: Bheem_Photo_cake,
+    category: "Celebration Cakes",
+
+    desc: "1 Pound, Fresh homemade eggless cake.",
+  },
+  {
+    id: "64",
+    title:"Coffee Mania Cake",
+    price: 400,
+    image01: Coffee_Mania,
+    category: "Celebration Cakes",
+
+    desc: "1 Pound, Fresh homemade eggless cake.",
+  },
+  {
+    id: "65",
+    title:"Mickey Face Cake",
+    price: 500,
+    image01: Mickey_Face_Cake,
+    category: "Celebration Cakes",
+
+    desc: "1 Pound, Fresh homemade eggless cake.",
+  },
+  {
+    id: "66",
+    title:"Premium Butterscotch Cake",
+    price: 400,
+    image01: Premium_Butterscotch_Cake,
+    category: "Celebration Cakes",
+
+    desc: "1 Pound, Fresh homemade eggless cake.",
+  },
+  {
+    id: "67",
+    title:"Udta Robot Doraemon Cake",
+    price: 400,
+    image01: udta_robot_cake,
     category: "Celebration Cakes",
 
     desc: "1 Pound, Fresh homemade eggless cake.",

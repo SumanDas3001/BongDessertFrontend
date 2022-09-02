@@ -36,7 +36,7 @@ const featureData = [
   {
     title: "Super Dine In",
     imgUrl: featureImg02,
-    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, doloremque.",
+    desc: "Will.",
   },
   {
     title: "Easy Pick Up",
@@ -49,7 +49,6 @@ const Home = () => {
 
   const [category, setCategory] = useState("CELEBRATION_CAKES");
   const [allProducts, setAllProducts] = useState(products);
-
   const [popularCake, setPopularCake]  = useState([]);
 
   useEffect(() => {
@@ -67,21 +66,21 @@ const Home = () => {
       const filteredProducts = products.filter(
         (item) => item.category === 'Celebration Cakes' 
       );
-      setAllProducts(filteredProducts)
+      setAllProducts(filteredProducts.slice(0, 20))
     }
 
     if(category === 'CUP_CAKES'){
       const filteredProducts = products.filter(
         (item) => item.category === 'Cup Cakes' 
       );
-      setAllProducts(filteredProducts)
+      setAllProducts(filteredProducts.slice(0, 20))
     }
 
     if(category === 'MOUSSE'){
       const filteredProducts = products.filter(
         (item) => item.category === 'Mousse' 
       );
-      setAllProducts(filteredProducts)
+      setAllProducts(filteredProducts.slice(0, 20))
     }
   }, [category])
 
@@ -101,7 +100,7 @@ const Home = () => {
               <div className="hero__content">
                 <h5 className='mb-3'>Easy way to make an order</h5>
                 <h1 className='mb-4 hero__title'>
-                  <span>HUNGRY?</span> Just wait <br /> food at
+                  <span>HUNGRY?</span> Just wait <br /> cake at
                   <span> your door</span>
                 </h1>
 
@@ -115,7 +114,7 @@ const Home = () => {
                   </button>
 
                   <button className="all__foods-btn">
-                    <Link to="/foods">See all foods</Link>
+                    <Link to="/foods">See all cakes</Link>
                   </button>
                 </div>
 
@@ -233,6 +232,7 @@ const Home = () => {
               </Col>
             ))}
           </Row>
+          
         </Container>
       </section>
 
@@ -324,11 +324,10 @@ const Home = () => {
                 <h2 className="testimonial__title text-center mb-4">
                   What our <span>customers</span> are saying
                 </h2>
-                {/* <p className="testimonial__desc text-center">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Distinctio quasi qui minus quos sit perspiciatis inventore
-                  quis provident placeat fugiat!
-                </p> */}
+                <p className="testimonial__desc text-center">
+                  Every Review are important for us, it help us to improve the quality our products and services.
+                  We Thank you so much for sharing your experience with us
+                </p>
 
                 <TestimonialSlider />
               </div>
