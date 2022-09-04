@@ -210,11 +210,11 @@ const FoodDetails = () => {
             </Col> */}
 
             <Col lg="12" className="mb-5 mt-5">
-              <h2 className="related__Product-title text-center">You might also like</h2>
+              <h2 className="related__Product-title text-center">You may also like</h2>
             </Col>
 
             {relatedProduct.map((item) => (
-              <Col lg="3" md="4" sm="6" xs="6" className="mb-4" key={item.id}>
+              <Col lg="3" md="4" sm='12' xs='12' className="mb-4" key={item.id}>
                 <ProductCard item={item} />
               </Col>
             ))}
