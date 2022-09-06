@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import Helmet from '../components/Helmet/Helmet.js'
-import { Container, Row, Col, ListGroup, ListGroupItem  } from 'reactstrap'
+import { Container, Row, Col, ListGroup, ListGroupItem } from 'reactstrap'
 
 import heroImg from '../assets/images/HeroImage.png';
 import '../styles/hero-section.css';
@@ -24,6 +24,7 @@ import whyImg from "../assets/images/profile_picture.jpg";
 
 // import networkImg from "../assets/images/network.png";
 import TestimonialSlider from "../components/UI/slider/TestimonialSlider.jsx";
+// import axios from "axios";
 
 
 const featureData = [
@@ -49,7 +50,20 @@ const Home = () => {
 
   const [category, setCategory] = useState("CELEBRATION_CAKES");
   const [allProducts, setAllProducts] = useState(products);
-  const [popularCake, setPopularCake]  = useState([]);
+  const [popularCake, setPopularCake] = useState([]);
+
+
+  // const [APIData, setAPIData] = useState([])
+  // const backend_url = 'http://localhost:3001/admin/products.json'
+  // useEffect(() => {
+  //   axios.get(backend_url)
+  //     .then((response) => {
+  //       console.log(response.data[0].price)
+  //       console.log(response.data[0].description.body)
+  //       setAPIData(response.data);
+  //     })
+  //     .catch(error => console.log(error))
+  // }, []);
 
   useEffect(() => {
     const filteredCake = products.filter((item) => item.category === "Celebration Cakes");
@@ -62,35 +76,35 @@ const Home = () => {
     //   setAllProducts(products)
     // }
 
-    if(category === 'CELEBRATION_CAKES'){
+    if (category === 'CELEBRATION_CAKES') {
       const filteredProducts = products.filter(
-        (item) => item.category === 'Celebration Cakes' 
+        (item) => item.category === 'Celebration Cakes'
       );
       setAllProducts(filteredProducts.slice(0, 20))
     }
 
-    if(category === 'CUP_CAKES'){
+    if (category === 'CUP_CAKES') {
       const filteredProducts = products.filter(
-        (item) => item.category === 'Cup Cakes' 
+        (item) => item.category === 'Cup Cakes'
       );
       setAllProducts(filteredProducts.slice(0, 20))
     }
 
-    if(category === 'MOUSSE'){
+    if (category === 'MOUSSE') {
       const filteredProducts = products.filter(
-        (item) => item.category === 'Mousse' 
+        (item) => item.category === 'Mousse'
       );
       setAllProducts(filteredProducts.slice(0, 20))
     }
   }, [category])
 
   const handleClick = (url) => {
-    if (url === 'order'){
+    if (url === 'order') {
       window.open('https://wa.me/919330349714', '_blank');
     }
   }
-  
-  
+
+
   return (
     <Helmet title="Home">
       <section>
@@ -136,7 +150,7 @@ const Home = () => {
             </Col>
             <Col lg='6' md='6'>
               <div className="hero__image">
-                <img src={heroImg} alt="hero-img" className='w-100'/>
+                <img src={heroImg} alt="hero-img" className='w-100' />
               </div>
             </Col>
           </Row>
@@ -168,7 +182,7 @@ const Home = () => {
             {featureData.map((item, index) => (
               <Col lg='4' md='6' sm='6' key={index} className="mt-5">
                 <div className='feature__item text-center px-5 py-3'>
-                  <img 
+                  <img
                     src={item.imgUrl}
                     alt='feature-img'
                     className='w-25 mb-3'
@@ -198,27 +212,24 @@ const Home = () => {
                 >
                   All
                 </button> */}
-                <button className={`d-flex align-items-center gap-2 ${
-                    category === "CELEBRATION_CAKES" ? "foodBtnActive" : ""
+                <button className={`d-flex align-items-center gap-2 ${category === "CELEBRATION_CAKES" ? "foodBtnActive" : ""
                   } `}
                   onClick={() => setCategory("CELEBRATION_CAKES")}
                 >
                   <img src={foodCategoryImg01} alt="" />
                   Celebration Cakes
                 </button>
-                <button 
-                  className={`d-flex align-items-center gap-2 ${
-                    category === "CUP_CAKES" ? "foodBtnActive" : ""
-                  } `}
+                <button
+                  className={`d-flex align-items-center gap-2 ${category === "CUP_CAKES" ? "foodBtnActive" : ""
+                    } `}
                   onClick={() => setCategory("CUP_CAKES")}
                 >
                   <img src={foodCategoryImg02} alt="" />
                   Cup Cakes
                 </button>
-                <button 
-                  className={`d-flex align-items-center gap-2 ${
-                    category === "MOUSSE" ? "foodBtnActive" : ""
-                  } `}
+                <button
+                  className={`d-flex align-items-center gap-2 ${category === "MOUSSE" ? "foodBtnActive" : ""
+                    } `}
                   onClick={() => setCategory("MOUSSE")}
                 >
                   <img src={foodCategoryImg03} alt="" />
@@ -227,12 +238,11 @@ const Home = () => {
               </div>
             </Col>
             {allProducts.map((item) => (
-              <Col lg='3' md='4' sm='12' xs='12' key={item.id} className='mt-5'>
-                <ProductCard item={item}/>
+              <Col lg='3' md='4' sm='6' xs='6' key={item.id} className='mt-5'>
+                <ProductCard item={item} />
               </Col>
             ))}
           </Row>
-          
         </Container>
       </section>
 
@@ -249,8 +259,8 @@ const Home = () => {
                   Why <span>The Bong Dessert?</span>
                 </h2>
                 <p className="tasty__treat-desc">
-                  We are makes it easy to delight your family, friends and colleagues with our freshly baked desserts delivered right to their doorstep ready to enjoy. 
-                  Our experienced bakers mix all of our batters and frostings by hand, just like grandma used to make. 
+                  We are makes it easy to delight your family, friends and colleagues with our freshly baked desserts delivered right to their doorstep ready to enjoy.
+                  Our experienced bakers mix all of our batters and frostings by hand, just like grandma used to make.
                   We always bake with whole buttermilk, fresh eggs and real butter – never a cake mix or commercially made frostings.
                 </p>
 
@@ -282,7 +292,7 @@ const Home = () => {
                       Not only are we best at what we do, but we also offer cakes at relatively affordable prices along with same-day cake delivery options.
                     </p>
                   </ListGroupItem>
-                  
+
                   <ListGroupItem className="border-0 ps-0">
                     <p className="choose__us-title d-flex align-items-center gap-2 ">
                       <i className="ri-checkbox-circle-line"></i>Order from any
@@ -307,7 +317,7 @@ const Home = () => {
             </Col>
 
             {popularCake.map((item) => (
-              <Col lg="3" md="4" sm='12' xs='12' key={item.id} className='mt-5'>
+              <Col lg="3" md="4" sm='6' xs='6' key={item.id} className='mt-5'>
                 <ProductCard item={item} />
               </Col>
             ))}

@@ -75,7 +75,7 @@ const AllFoods = (props) => {
               {searchInput.length > 1 ? (
                 filteredResults.map((item) => {
                   return (
-                    <Col lg='3' md='3' sm='12' xs='12' key={item.id} className='mb-4'>
+                    <Col lg='3' md='3' sm='6' xs='6' key={item.id} className='mb-4'>
                       <ProductCard item={item} />
                     </Col>
                   )
@@ -83,7 +83,7 @@ const AllFoods = (props) => {
               ) : (
                 allProducts.map((item) => {
                   return (
-                    <Col lg='3' md='3' sm='12' xs='12' key={item.id} className='mb-4'>
+                    <Col lg='3' md='3' sm='6' xs='6' key={item.id} className='mb-4'>
                       <ProductCard item={item} />
                     </Col>
                   )
