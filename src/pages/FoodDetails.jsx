@@ -6,6 +6,15 @@ import Helmet from "../components/Helmet/Helmet";
 import CommonSection from "../components/UI/common-section/CommonSection";
 import { Container, Row, Col } from "reactstrap";
 
+import {
+  FacebookShareButton,
+  FacebookIcon,
+  WhatsappShareButton,
+  WhatsappIcon,
+  TwitterShareButton,
+  TwitterIcon,
+} from 'react-share';
+
 // import { useDispatch } from "react-redux";
 // import { cartActions } from "../store/shopping-cart/cartSlice";
 
@@ -27,6 +36,7 @@ const FoodDetails = () => {
 
   const relatedProduct = products.filter((item) => category === item.category);
 
+  const shareUrl = window.location.href;
   // const addItem = () => {
   //   dispatch(
   //     cartActions.addItem({
@@ -117,6 +127,32 @@ const FoodDetails = () => {
                 {/* <button onClick={addItem} className="addTOCart__btn">
                   Add to Cart
                 </button> */}
+
+                <p className="category mb-5">
+                  Social share: 
+                  <FacebookShareButton
+                    url={shareUrl}
+                    quote={desc}
+                    hashtag={'#portfolio...'}
+                  >
+                    <FacebookIcon size={40} round={true} />
+                  </FacebookShareButton>
+
+                  <WhatsappShareButton
+                    url={shareUrl}
+                    quote={desc}
+                    hashtag={'#portfolio...'}
+                  >
+                    <WhatsappIcon size={40} round={true} />
+                  </WhatsappShareButton>
+                  <TwitterShareButton
+                    url={shareUrl}
+                    quote={desc}
+                    hashtag={'#portfolio...'}
+                  >
+                    <TwitterIcon size={40} round={true} />
+                  </TwitterShareButton>
+                </p>
 
                 <button onClick={() => handleClick('order')} className="addTOCart__btn">
                   Order
