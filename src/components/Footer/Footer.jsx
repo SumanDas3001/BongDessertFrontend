@@ -23,8 +23,8 @@ const Footer = () => {
         <Row>
           <Col lg='3' md='4' sm='6'>
             <div className="logo py-3 footer_logo text-start">
-              <img src="https://bongdessert.s3.amazonaws.com/bongdessert_logo.png" alt="logo"  />
-              <h5 className='brand__name pt-5 pb-2'>The Bong Dessert</h5>
+              <img src="https://bongdessert.s3.amazonaws.com/Ahare+Cake.png" alt="logo"  />
+              <h5 className='brand__name pt-5 pb-2'>Ahare Cake</h5>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error delectus corrupti quia esse voluptates optio.</p>
             </div>
           </Col>
@@ -87,7 +87,7 @@ const Footer = () => {
 
         <Row className='mt-5'>
           <Col lg='12' md='12'>
-            <p className='copyright__text text-center'>Copyright - 2022, website made by The Bong Dessert Team. All Right Reserved.</p>
+            <p className='copyright__text text-center'>Copyright - 2022, website made by Ahare Cake Team. All Right Reserved.</p>
           </Col>
           {/* <Col lg='6' md='6'>
             <div className="social__links d-flex align-items-center gap-4 justify-content-end">

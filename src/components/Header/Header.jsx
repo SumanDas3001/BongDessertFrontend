@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from 'react'
 import { Container } from 'reactstrap'
-import logo from "../../assets/images/bongdessert_logo-removebg-preview.png";
+// import logo from "../../assets/images/bongdessert_logo-removebg-preview.png";
 // import logo from "../../assets/images/res-logo.png";
 import { NavLink } from 'react-router-dom'
 // import { useSelector, useDispatch } from "react-redux";
@@ -62,8 +62,8 @@ const Header = () => {
       <Container>
         <div className='nav__wrapper d-flex align-items-center justify-content-between'>
           <div className="logo py-3">
-            {/* <img src="https://bongdessert.s3.amazonaws.com/bongdessert_logo.png" alt="logo"  /> */}
-            <img src={logo} alt="logo" className='justify-content-end' style={{height: '100px', width: '100px'}} />
+            <img src="https://bongdessert.s3.amazonaws.com/Ahare+Cake.png" alt="logo" className='justify-content-end' style={{height: '100px', width: '100px'}}  />
+            {/* <img src={logo} alt="logo" className='justify-content-end' style={{height: '100px', width: '100px'}} /> */}
             {/* <h4 className='mt-0'>The Bong Dessert</h4> */}
           </div>
 

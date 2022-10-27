@@ -42,7 +42,7 @@ const featureData = [
   {
     title: "Easy Pick Up",
     imgUrl: featureImg03,
-    desc: "The Bong Dessert will bring it to your doorstep with pull me up cake delivery",
+    desc: "Ahare Cake will bring it to your doorstep with pull me up cake delivery",
   },
 ];
 
@@ -119,7 +119,7 @@ const Home = () => {
                 </h1>
 
                 <p>
-                  We are thrilled to offer your our hand made freshly made Cake's in a wide range of variations.
+                  We are thrilled to offer you our hand made freshly made Cake's in a wide range of variations.
                 </p>
 
                 <div className="hero__btns d-flex align-items-center gap-5 mt-4">
@@ -256,7 +256,7 @@ const Home = () => {
             <Col lg="6" md="6">
               <div className="why__tasty-treat">
                 <h2 className="tasty__treat-title mb-4">
-                  Why <span>The Bong Dessert?</span>
+                  Why <span>Ahare Cake?</span>
                 </h2>
                 <p className="tasty__treat-desc">
                   We are makes it easy to delight your family, friends and colleagues with our freshly baked desserts delivered right to their doorstep ready to enjoy.
@@ -280,7 +280,7 @@ const Home = () => {
                       <i className="ri-checkbox-circle-line"></i> Custom cake
                     </p>
                     <p className="choose__us-desc">
-                      The Bong Dessert offers customized designer cakes for birthdays, anniversaries, parties, meetups, weddings and every event or ocassions.
+                      Ahare Cake offers customized designer cakes for birthdays, anniversaries, parties, meetups, weddings and every event or ocassions.
                     </p>
                   </ListGroupItem>
 
@@ -299,7 +299,7 @@ const Home = () => {
                       location{" "}
                     </p>
                     <p className="choose__us-desc">
-                      Looking for the best online cake order delivery service? Look no further! Order from The Bong Dessert.
+                      Looking for the best online cake order delivery service? Look no further! Order from Ahare Cake.
                     </p>
                   </ListGroupItem>
                 </ListGroup>
