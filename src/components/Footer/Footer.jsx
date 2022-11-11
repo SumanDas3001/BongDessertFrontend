@@ -8,12 +8,12 @@ const Footer = () => {
 
   const handleClick = (url) => {
     if (url === 'facebook'){
-      window.open('https://www.facebook.com/thebongdessert', '_blank');
+      window.open('https://www.facebook.com/aharecake', '_blank');
     }else if(url === 'instagram') {
-      window.open('https://www.instagram.com/thebongdessert/', '_blank');
+      window.open('https://www.instagram.com/aharecake/', '_blank');
 
     } else if (url === 'twitter'){
-      window.open('https://twitter.com/thebongdessert', '_blank');
+      window.open('https://twitter.com/aharecake', '_blank');
     }
   }
 
