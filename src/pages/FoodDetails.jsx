@@ -68,9 +68,9 @@ const FoodDetails = () => {
     }
   }
 
-  // const openWhatsApp = () => {  
-  //   window.open(`https://web.whatsapp.com/send?text=${desc}`);  
-  // }  
+  // const openWhatsApp = () => {
+  //   window.open(`https://web.whatsapp.com/send?text=${desc}`);
+  // }
 
   return (
     <Helmet title="Product-details">
@@ -129,7 +129,7 @@ const FoodDetails = () => {
                 </button> */}
 
                 <p className="category mb-5">
-                  Social share: 
+                  Social share:
                   <FacebookShareButton
                     url={shareUrl}
                     quote={desc}
@@ -161,7 +161,7 @@ const FoodDetails = () => {
 
                 {/* <img src= "https://image.freepik.com/free-vector/whatsapp-icon-design_23-2147900927.jpg" onClick={openWhatsApp} />   */}
 
-                {/* <a 
+                {/* <a
                   href={`https://web.whatsapp.com/send?text=${desc}`}
                   rel="nofollow noopener" target="_blank"
                   className="share-icon"><img src={`${previewImg}`} style={{height:'36px'}}/>Share via Whatsapp
@@ -183,7 +183,7 @@ const FoodDetails = () => {
                 >
                   Review
                 </h6>
-              </div>  
+              </div>
 
               {tab === "desc" ? (
                 <div className="tab__content">
@@ -207,7 +207,7 @@ const FoodDetails = () => {
                     <p className="user__name mb-0">Jhon Doe</p>
                     <p className="user__email">jhon1@gmail.com</p>
                     <p className="feedback__text">great product</p>
-                  </div>
+                  </div> 
                   <form className="form" onSubmit={submitHandler} >
                     <div className="form__group">
                       <input

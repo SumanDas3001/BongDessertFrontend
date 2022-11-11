@@ -1,18 +1,28 @@
-import React from 'react';
-import { Navigate } from 'react-router-dom'
-import { post } from 'axios';
+// import React from 'react';
+// import { Navigate } from 'react-router-dom'
+import axios from "axios";
 
 const Logout = () => {
   let token = localStorage.getItem("jwt")
-  const request = {"token": token, "client_id": "9-V7D1HFLyAhjtVDmu6VTaZAxhf29gacuMIIfspC680", "client_secret": "EYe0wLBKRqnLskx-Gw860dLayWIaUtKGCduK-3mevt0"};
-  post('http://localhost:3001/api/v1/oauth/revoke', request)
+  // const request = {"Authorization": token };
+
+  const request = {
+    headers: {
+      "Content-Type": "application/json",
+      "Authorization": token
+    }
+  };
+
+  axios.delete('http://localhost:3001/api/v1/revoke', request)
   .then(response => {
     console.log(response);
   })
   .catch(error => console.log('error', error));
 
   localStorage.removeItem('jwt');
-  return <Navigate to='/' />
+  return(
+    window.location = 'http://localhost:3000'
+  )
 }
 
 export default Logout;
