@@ -62,14 +62,17 @@ const ProductCard = (props) => {
         <h5><Link to={`/foods/${id}`}>{title}</Link></h5>
         <div>
           <span className='product__price'>Rs: {price}</span><br/>
-          <button outline onClick={() => handleClick('order')} className="addTOCart__btn">
+          {/*<button outline onClick={() => handleClick('order')} className="addTOCart__btn">
             Order Now
           </button>
-          {/* <button className="like_button" onClick={addLike}>
+           <button className="like_button" onClick={addLike}>
             <i className="fas fa-heart fa-lg" style={{ color: "red" }}></i>{" "}
               <FcLike />
             {likes}
           </button> */}
+          <button className="addTOCart__btn d-inline-flex" onClick={() => handleClick('order')}>
+            Order now <i className="ri-whatsapp-line" style={{marginLeft: '5px'}}></i>
+          </button>
         </div>
       </div>
     </div>
