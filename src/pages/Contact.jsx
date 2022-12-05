@@ -38,7 +38,7 @@ const Contact = () => {
           <Row>
             <h2 className='text-center'>Contact Us</h2>
             <p className='text-center'>
-              <span>Contact us</span> To find out more or how we can help you etter.
+              <span>Contact us</span> to find out more or how we can help you etter.
             </p>
             <Col lg='4' md='12' sm='12' xs='12' className='mt-5'>
               <div className="section-header footer-pading">
