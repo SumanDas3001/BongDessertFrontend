@@ -48,7 +48,7 @@ const Register = () => {
       if (password === confirmpassword){
         const request = {"user": {"name": name, "email": email, "password": password, "password_confirmation": confirmpassword}}
 
-        post("http://localhost:3001/api/v1/register", request)
+        post("https://squid-app-3xlu8.ondigitalocean.app/api/v1/register", request)
         .then(response => {
           console.log(response);
           alert(response.status);
@@ -56,7 +56,7 @@ const Register = () => {
             console.log(response);
             localStorage.setItem("jwt", response.data.response_data.access_token);
             // navigate("/home");
-            window.location = 'http://localhost:3000'
+            window.location = 'https://aharecake.com'
           }
         })
         .catch(error => {

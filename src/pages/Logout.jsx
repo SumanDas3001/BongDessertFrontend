@@ -13,7 +13,7 @@ const Logout = () => {
     }
   };
 
-  axios.delete('http://localhost:3001/api/v1/revoke', request)
+  axios.delete('https://squid-app-3xlu8.ondigitalocean.app/api/v1/revoke', request)
   .then(response => {
     console.log(response);
   })
@@ -21,7 +21,7 @@ const Logout = () => {
 
   localStorage.removeItem('jwt');
   return(
-    window.location = 'http://localhost:3000'
+    window.location = 'https://aharecake.com'
   )
 }
 

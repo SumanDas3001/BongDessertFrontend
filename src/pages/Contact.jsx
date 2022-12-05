@@ -15,12 +15,12 @@ const Contact = () => {
     e.preventDefault();
 
     const request = {"name": enteredName, "email": enteredEmail, "message": reviewMsg}
-    post('http://localhost:3001/api/v1/cms_pages/contact_us', request)
+    post('https://squid-app-3xlu8.ondigitalocean.app/api/v1/cms_pages/contact_us', request)
     .then(response => {
       console.log(response);
       if (response.data.response_code === 200) {
         alert(response.data.response_message);
-        window.location = 'http://localhost:3000'
+        window.location = 'https://aharecake.com/contact'
       } else {
         alert(response.data.response_message);
       }
