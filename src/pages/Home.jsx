@@ -67,7 +67,7 @@ const Home = () => {
 
   useEffect(() => {
     const filteredCake = products.filter((item) => item.category === "Celebration Cakes");
-    const cake = filteredCake.slice(0, 4);
+    const cake = filteredCake.slice(30, 34);
     setPopularCake(cake);
   }, []);
 
