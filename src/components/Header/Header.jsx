@@ -2,7 +2,7 @@ import React, { useRef, useEffect } from 'react'
 import { Container } from 'reactstrap'
 // import logo from "../../assets/images/bongdessert_logo-removebg-preview.png";
 // import logo from "../../assets/images/res-logo.png";
-import { NavLink } from 'react-router-dom'
+import { NavLink, Link } from 'react-router-dom'
 // import { useSelector, useDispatch } from "react-redux";
 
 // import { cartUiActions } from "../../store/shopping-cart/cartUiSlice";
@@ -40,7 +40,7 @@ const Header = () => {
   //   dispatch(cartUiActions.toggle());
   // };
 
-  
+
   useEffect(() => {
     window.addEventListener("scroll", () => {
       if (
@@ -73,8 +73,8 @@ const Header = () => {
               {
                 nav_links.map((item, index) => (
                   <NavLink
-                  onClick={toggleMenu} 
-                    to={item.path} 
+                  onClick={toggleMenu}
+                    to={item.path}
                     key={index}
                     className={(navClass) =>
                       navClass.isActive ? 'active__menu' :''
@@ -93,13 +93,35 @@ const Header = () => {
             {/* <span className="cart__icon" onClick={toggleCart}>
               <i className="ri-shopping-basket-line"></i>
               <span className="cart__badge">{totalQuantity}</span>
-            </span>
-            
-            <span className="user">
-              <Link to="/login">
-                <i className="ri-user-line"></i>
-              </Link>
-            </span> */}
+            </span>*/}
+
+
+            {
+              localStorage.getItem("jwt") ?
+                <span className="user">
+                  <Link to="/logout">
+                    Logout
+                  </Link>
+                </span>
+              :
+                <span className="user">
+                  <Link to="/login">
+                    Login
+                  </Link>
+                </span>
+            }
+
+            {
+              localStorage.getItem("jwt") ?
+                ""
+              :
+
+              <span className="user">
+                <Link to="/register">
+                  Register
+                </Link>
+              </span>
+            }
 
             <span className="mobile__menu" onClick={toggleMenu}>
               <i className="ri-menu-line"></i>

@@ -3,6 +3,10 @@ import "../../../styles/product-card.css";
 
 import { Link } from 'react-router-dom';
 
+// import { FcLike } from "react-icons/fc";
+
+// import {Card, CardBody, CardTitle, CardSubtitle, CardText, Button, CardImg} from 'reactstrap';
+
 // import { useDispatch } from "react-redux";
 // import { cartActions } from "../../../store/shopping-cart/cartSlice";
 
@@ -10,6 +14,13 @@ import { Link } from 'react-router-dom';
 const ProductCard = (props) => {
 
   const {id, title, image01, price} = props.item;
+  // const [likes, setLikes] = useState(0);
+
+  // const addLike = () => {
+  //   let newCount = likes + 1
+  //   setLikes(newCount)
+  // }
+
   // const dispatch = useDispatch();
 
   // const addToCart = () => {
@@ -42,6 +53,7 @@ const ProductCard = (props) => {
     //     </CardBody>
     //   </Card>
     // </div>
+
     <div className='product__item'>
       <div className='product__img'>
       <img src={image01} alt="product-img"  style={{width: '100px', height: '100px'}}/>
@@ -50,9 +62,14 @@ const ProductCard = (props) => {
         <h5><Link to={`/foods/${id}`}>{title}</Link></h5>
         <div>
           <span className='product__price'>Rs: {price}</span><br/>
-          <button onClick={() => handleClick('order')} className="addTOCart__btn">
+          <button outline onClick={() => handleClick('order')} className="addTOCart__btn">
             Order Now
           </button>
+          {/* <button className="like_button" onClick={addLike}>
+            <i className="fas fa-heart fa-lg" style={{ color: "red" }}></i>{" "}
+              <FcLike />
+            {likes}
+          </button> */}
         </div>
       </div>
     </div>

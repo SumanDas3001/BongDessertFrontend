@@ -7,6 +7,7 @@ import Checkout from '../pages/Checkout'
 // import Cart from '../pages/Cart'
 import Contact from '../pages/Contact'
 import Login from '../pages/Login'
+import Logout from '../pages/Logout'
 import Register from '../pages/Register'
 import LoadingBar from 'react-top-loading-bar'
 
@@ -35,6 +36,7 @@ const Routers = () => {
         <Route path='/checkout' element={<Checkout />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/login' element={<Login />} />
+        <Route path='/logout' element={<Logout />} />
         <Route path='/register' element={<Register />} />
       </Routes>
     </>
