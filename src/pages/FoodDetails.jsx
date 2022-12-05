@@ -133,7 +133,7 @@ const FoodDetails = () => {
                   <FacebookShareButton
                     url={shareUrl}
                     quote={desc}
-                    hashtag={'#portfolio...'}
+                    hashtag={'#aharecake'}
                   >
                     <FacebookIcon size={40} round={true} />
                   </FacebookShareButton>
@@ -141,14 +141,14 @@ const FoodDetails = () => {
                   <WhatsappShareButton
                     url={shareUrl}
                     quote={desc}
-                    hashtag={'#portfolio...'}
+                    hashtag={'#aharecake'}
                   >
                     <WhatsappIcon size={40} round={true} />
                   </WhatsappShareButton>
                   <TwitterShareButton
                     url={shareUrl}
                     quote={desc}
-                    hashtag={'#portfolio...'}
+                    hashtag={'#aharecake'}
                   >
                     <TwitterIcon size={40} round={true} />
                   </TwitterShareButton>
