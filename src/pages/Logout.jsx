@@ -1,10 +1,8 @@
 // import React from 'react';
 // import { Navigate } from 'react-router-dom'
 import axios from "axios";
-import { useNavigate } from "react-router-dom";
 
 const Logout = () => {
-  const navigate = useNavigate();
   let token = localStorage.getItem("jwt")
   // const request = {"Authorization": token };
 
@@ -23,8 +21,7 @@ const Logout = () => {
 
   localStorage.removeItem('jwt');
   return(
-    // window.location = 'https://aharecake.com'
-    navigate("/home")
+    window.location = 'https://aharecake.com'
   )
 }
 
