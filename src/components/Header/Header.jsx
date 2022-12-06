@@ -106,22 +106,10 @@ const Header = () => {
               :
                 <span className="user">
                   <Link to="/login">
-                    Login
+                    <i class="ri-user-line"></i>
                   </Link>
                 </span>
-            }
-
-            {
-              localStorage.getItem("jwt") ?
-                ""
-              :
-
-              <span className="user">
-                <Link to="/register">
-                  Register
-                </Link>
-              </span>
-            }
+            }   
 
             <span className="mobile__menu" onClick={toggleMenu}>
               <i className="ri-menu-line"></i>

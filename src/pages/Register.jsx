@@ -2,11 +2,11 @@ import React, { useRef, useState } from "react";
 import Helmet from "../components/Helmet/Helmet";
 import CommonSection from "../components/UI/common-section/CommonSection";
 import { Container, Row, Col } from "reactstrap";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { post } from 'axios';
 
 const Register = () => {
-  // const navigate = useNavigate();
+  const navigate = useNavigate();
   const signupPasswordRef = useRef();
   const signupEmailRef = useRef();
   const signupConfirmPasswordRef = useRef();
@@ -55,8 +55,8 @@ const Register = () => {
           if (response.status === 200) {
             console.log(response);
             localStorage.setItem("jwt", response.data.response_data.access_token);
-            // navigate("/home");
-            window.location = 'https://aharecake.com'
+            navigate("/home");
+            // window.location = 'https://aharecake.com'
           }
         })
         .catch(error => {
