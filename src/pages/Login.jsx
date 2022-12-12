@@ -28,7 +28,7 @@ const Login = () => {
     e.preventDefault();
     const request = {"email": email, "password": password}
     
-    post('http://localhost:3001/api/v1/login', request)
+    post('https://squid-app-3xlu8.ondigitalocean.app/api/v1/login', request)
     .then(response => {
       if (response.data.response_code === 200) {
         localStorage.setItem("jwt", response.data.response_data.access_token);
