@@ -4,23 +4,27 @@ import Helmet from '../components/Helmet/Helmet';
 import CommonSection from "../components/UI/common-section/CommonSection";
 import "../styles/product-details.css";
 import { post } from 'axios';
+import { useNavigate } from "react-router-dom";
+
 
 const Contact = () => {
 
   const [enteredName, setEnteredName] = useState("");
   const [enteredEmail, setEnteredEmail] = useState("");
   const [reviewMsg, setReviewMsg] = useState("");
+  const navigate = useNavigate();
+
 
   const submitHandler = (e) => {
     e.preventDefault();
 
     const request = {"name": enteredName, "email": enteredEmail, "message": reviewMsg}
-    post('https://squid-app-3xlu8.ondigitalocean.app/api/v1/cms_pages/contact_us', request)
+    post('http://localhost:3001/api/v1/cms_pages/contact_us', request)
     .then(response => {
       console.log(response);
       if (response.data.response_code === 200) {
         alert(response.data.response_message);
-        window.location = 'https://aharecake.com/contact'
+        navigate(0);
       } else {
         alert(response.data.response_message);
       }

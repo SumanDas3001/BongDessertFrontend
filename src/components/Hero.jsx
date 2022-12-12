@@ -16,7 +16,7 @@ export default function Hero(props) {
             </p>
             <div className="d-flex" data-aos="fade-up" data-aos-delay="200">
               <a href={`tel://${props.data.phone}`} className="btn-book-a-table">
-                <i class="fa fa-phone" style={{fontSize:'20px'}}> Order Now</i>
+                <i className="fa fa-phone" style={{fontSize:'20px'}}> Order Now</i>
               </a>
               {/* <a href="https://wa.me/9330349714" className="whatsapp_float" target="_blank" rel="noopener noreferrer">
                 <i class="fa fa-whatsapp whatsapp-icon" style={{fontSize:'20px'}}></i>

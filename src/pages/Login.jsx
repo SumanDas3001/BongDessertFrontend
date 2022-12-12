@@ -2,12 +2,12 @@ import React, { useRef, useState } from "react";
 import Helmet from "../components/Helmet/Helmet";
 import CommonSection from "../components/UI/common-section/CommonSection";
 import { Container, Row, Col } from "reactstrap";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { post } from 'axios';
 
 
 const Login = () => {
-  // const navigate = useNavigate();
+  const navigate = useNavigate();
   const loginEmailRef = useRef();
   const loginPasswordRef = useRef();
 
@@ -28,15 +28,14 @@ const Login = () => {
     e.preventDefault();
     const request = {"email": email, "password": password}
     
-    post('https://squid-app-3xlu8.ondigitalocean.app/api/v1/login', request)
+    post('http://localhost:3001/api/v1/login', request)
     .then(response => {
       if (response.data.response_code === 200) {
         localStorage.setItem("jwt", response.data.response_data.access_token);
-        window.location = 'https://aharecake.com'
+        navigate(0);
       } else {
         alert(response.data.response_message);
       }
-      // navigate("/home");
     })
     .catch(error => console.log('error', error));
   };
