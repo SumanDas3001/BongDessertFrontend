@@ -35,9 +35,13 @@ const Routers = () => {
         {/* <Route path='/cart' element={<Cart />} /> */}
         <Route path='/checkout' element={<Checkout />} />
         <Route path='/contact' element={<Contact />} />
-        <Route path='/login' element={<Login />} />
+        {
+          localStorage.getItem("jwt") ? "" : <Route path='/login' element={<Login />} />
+        }
         <Route path='/logout' element={<Logout />} />
-        <Route path='/register' element={<Register />} />
+        {
+          localStorage.getItem("jwt") ? "" : <Route path='/register' element={<Register />} />
+        }
       </Routes>
     </>
   )
