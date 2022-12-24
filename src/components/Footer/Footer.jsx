@@ -1,5 +1,6 @@
 import React from 'react'
 import { Container, Row, Col, ListGroup, ListGroupItem } from 'reactstrap'
+import logo from "../../assets/images/ahare_cake.png";
 
 import "../../styles/footer.css";
 // import { Link } from 'react-router-dom';
@@ -23,7 +24,8 @@ const Footer = () => {
         <Row>
           <Col lg='3' md='4' sm='6'>
             <div className="logo py-3 footer_logo text-start">
-              <img src="https://bongdessert.s3.amazonaws.com/Ahare+Cake.png" alt="logo"  />
+              {/* <img src="https://bongdessert.s3.amazonaws.com/Ahare+Cake.png" alt="logo"  /> */}
+              <img src={logo} alt="logo"  />
               <h5 className='brand__name pt-5 pb-2'>Ahare Cake</h5>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error delectus corrupti quia esse voluptates optio.</p>
             </div>
