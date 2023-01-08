@@ -2,7 +2,7 @@ import React, { useRef, useEffect } from 'react'
 import { Container } from 'reactstrap'
 // import logo from "../../assets/images/bongdessert_logo-removebg-preview.png";
 import logo from "../../assets/images/ahare_cake.png";
-import { NavLink, Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 // import { useSelector, useDispatch } from "react-redux";
 
 // import { cartUiActions } from "../../store/shopping-cart/cartUiSlice";
@@ -96,7 +96,7 @@ const Header = () => {
             </span>*/}
 
 
-            {
+            {/* {
               localStorage.getItem("jwt") ?
                 <span className="user">
                   <Link to="/logout">
@@ -109,7 +109,7 @@ const Header = () => {
                     <i className="ri-user-line"></i>
                   </Link>
                 </span>
-            }   
+            }    */}
 
             <span className="mobile__menu" onClick={toggleMenu}>
               <i className="ri-menu-line"></i>

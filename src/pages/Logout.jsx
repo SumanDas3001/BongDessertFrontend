@@ -15,7 +15,11 @@ const Logout = () => {
 
   axios.delete('https://squid-app-3xlu8.ondigitalocean.app/api/v1/revoke', request)
   .then(response => {
-    console.log(response);
+    if (response.data.response_code === 200){
+      console.log(response.data.response_code);
+    } else {
+      alert(response.data.response_message);
+    }
   })
   .catch(error => console.log('error', error));
 

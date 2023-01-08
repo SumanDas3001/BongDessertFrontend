@@ -13,6 +13,7 @@ const Login = () => {
 
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const [targeturl, setTargeturl] = useState('');
 
   // Handling the email change
   const handleEmail = (e) => {
@@ -28,11 +29,21 @@ const Login = () => {
     e.preventDefault();
     const request = {"email": email, "password": password}
     
-    post('https://squid-app-3xlu8.ondigitalocean.app/api/v1/login', request)
+    if (!process.env.NODE_ENV || process.env.NODE_ENV === 'development') {
+      setTargeturl('http://localhost:3001/api/v1/login')
+    } else {
+      setTargeturl('https://squid-app-3xlu8.ondigitalocean.app/api/v1/login')
+    }
+
+    post(targeturl, request)
     .then(response => {
       if (response.data.response_code === 200) {
         localStorage.setItem("jwt", response.data.response_data.access_token);
-        window.location = 'https://aharecake.com'
+        if (!process.env.NODE_ENV || process.env.NODE_ENV === 'development') {
+          window.location = 'http://localhost:3000'
+        } else {
+          window.location = 'https://aharecake.com'
+        }
       } else {
         alert(response.data.response_message);
       }
