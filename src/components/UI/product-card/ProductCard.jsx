@@ -1,7 +1,7 @@
-import React from 'react'
+import React from "react";
 import "../../../styles/product-card.css";
 
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 // import { FcLike } from "react-icons/fc";
 
@@ -10,10 +10,8 @@ import { Link } from 'react-router-dom';
 // import { useDispatch } from "react-redux";
 // import { cartActions } from "../../../store/shopping-cart/cartSlice";
 
-
 const ProductCard = (props) => {
-
-  const {id, title, image01, price} = props.item;
+  const { id, title, image01, price } = props.item;
   // const [likes, setLikes] = useState(0);
 
   // const addLike = () => {
@@ -35,10 +33,10 @@ const ProductCard = (props) => {
   // };
 
   const handleClick = (url) => {
-    if (url === 'order'){
-      window.open('https://wa.me/919330349714', '_blank');
+    if (url === "order") {
+      window.open("https://wa.me/919330349714", "_blank");
     }
-  }
+  };
 
   return (
     // <div>
@@ -47,21 +45,28 @@ const ProductCard = (props) => {
     //     <CardBody className='product__content'>
     //       <CardTitle><h5><Link to={`/foods/${id}`}>{title}</Link></h5></CardTitle>
     //       <CardSubtitle><span className='product__price'>Rs: {price}</span><br/></CardSubtitle>
-          
+
     //       <CardText>{desc}</CardText>
     //       <Button onClick={() => handleClick('order')} className="addTOCart__btn">Order</Button>
     //     </CardBody>
     //   </Card>
     // </div>
 
-    <div className='product__item'>
-      <div className='product__img'>
-      <img src={image01} alt="product-img"  style={{width: '100px', height: '100px'}}/>
+    <div className="product__item">
+      <div className="product__img">
+        <img
+          src={image01}
+          alt="product-img"
+          style={{ width: "100px", height: "100px" }}
+        />
       </div>
-      <div className='product__content'>
-        <h5><Link to={`/foods/${id}`}>{title}</Link></h5>
+      <div className="product__content pt-2">
+        <h5>
+          <Link to={`/foods/${id}`}>{title}</Link>
+        </h5>
         <div>
-          <span className='product__price'>Rs: {price}</span><br/>
+          <span className="product__price">Rs: {price}</span>
+          <br />
           {/*<button outline onClick={() => handleClick('order')} className="addTOCart__btn">
             Order Now
           </button>
@@ -70,13 +75,17 @@ const ProductCard = (props) => {
               <FcLike />
             {likes}
           </button> */}
-          <button className="addTOCart__btn d-inline-flex" onClick={() => handleClick('order')}>
-            Order now <i className="ri-whatsapp-line" style={{marginLeft: '5px'}}></i>
+          <button
+            className="addTOCart__btn d-inline-flex"
+            onClick={() => handleClick("order")}
+          >
+            Order now{" "}
+            <i className="ri-whatsapp-line" style={{ marginLeft: "5px" }}></i>
           </button>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default ProductCard
+export default ProductCard;

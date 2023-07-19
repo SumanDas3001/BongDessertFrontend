@@ -20,7 +20,7 @@ import foodCategoryImg02 from "../assets/images/cupcake.png";
 import foodCategoryImg03 from "../assets/images/mousse.png";
 
 import ProductCard from "../components/UI/product-card/ProductCard.jsx";
-import whyImg from "../assets/images/profile_picture.jpg";
+import whyImg from "../assets/images/cake_image.png";
 
 // import networkImg from "../assets/images/network.png";
 import TestimonialSlider from "../components/UI/slider/TestimonialSlider.jsx";
@@ -255,7 +255,7 @@ const Home = () => {
 
             <Col lg="6" md="6">
               <div className="why__tasty-treat">
-                <h2 className="tasty__treat-title mb-4">
+                <h2 className="tasty__treat-title mb-4 mt-4">
                   Why <span>Ahare Cake?</span>
                 </h2>
                 <p className="tasty__treat-desc">

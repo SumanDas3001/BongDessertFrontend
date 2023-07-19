@@ -1,6 +1,7 @@
 .common__section {
   background: linear-gradient(#212245b2, #212245b2),
-    url("../assets/images/chocolate-coffee-walnut-cakeone-pound-1650314894720_1.jpg");
+    /* url("../assets/images/chocolate-coffee-walnut-cakeone-pound-1650314894720_1.jpg"); */
+    url("../assets/images/contact_page_bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
