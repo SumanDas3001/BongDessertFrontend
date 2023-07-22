@@ -34,7 +34,10 @@ const ProductCard = (props) => {
 
   const handleClick = (url) => {
     if (url === "order") {
-      window.open("https://wa.me/919330349714", "_blank");
+      let image_url = `https://aharecake.com/foods/${id}`
+      let message = `Hi Ahare Cake, I want to order this cake: ${image_url}`.split(' ').join('%20')
+      window.open('https://api.whatsapp.com/send?phone=' + 919330349714 + '&text=%20' + message)
+      // window.open("https://wa.me/919330349714", "_blank");
     }
   };
 
